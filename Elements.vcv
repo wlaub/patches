@@ -1,0 +1,374 @@
+{
+  "version": "0.5.1",
+  "modules": [
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        1710.0,
+        0.0
+      ],
+      "params": [],
+      "data": {
+        "driver": 8,
+        "device": 0,
+        "sampleRate": 48000.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "pos": [
+        1605.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -14.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "pos": [
+        510.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        -0.0,
+        0.0,
+        -16.0,
+        0.0,
+        1.2900002002716064,
+        0.0
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "pos": [
+        315.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -16.0,
+        0.0,
+        2.9400007724761963,
+        0.0
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      }
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Shades",
+      "pos": [
+        1620.0,
+        0.0
+      ],
+      "params": [
+        0.5,
+        0.5,
+        0.4500001072883606,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Elements",
+      "pos": [
+        945.0,
+        0.0
+      ],
+      "params": [
+        0.73449981212615967,
+        0.0,
+        0.11250000447034836,
+        1.0,
+        -21.690006256103516,
+        0.0,
+        0.6599993109703064,
+        0.5,
+        0.5,
+        0.34000012278556824,
+        0.1604999303817749,
+        1.0,
+        0.036000020802021027,
+        0.5,
+        0.47999998927116394,
+        0.97000014781951904,
+        0.5280001163482666,
+        0.17400003969669342,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1050000861287117,
+        1.0,
+        0.0,
+        0.33900001645088196,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "model": 0
+      }
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Shades",
+      "pos": [
+        1530.0,
+        0.0
+      ],
+      "params": [
+        0.5,
+        0.5,
+        0.47550010681152344,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "LFO",
+      "pos": [
+        1035.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        1.0,
+        2.3389990329742432,
+        0.0,
+        0.24650000035762787,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Noise",
+      "pos": [
+        720.0,
+        0.0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "SEQ3",
+      "pos": [
+        210.0,
+        0.0
+      ],
+      "params": [
+        2.0,
+        0.0,
+        0.0,
+        7.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "running": true,
+        "gates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "gateMode": 0
+      }
+    },
+    {
+      "plugin": "Befaco",
+      "model": "ABC",
+      "pos": [
+        615.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.55499982833862305,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-SampleHold",
+      "pos": [
+        795.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "LFO",
+      "pos": [
+        720.0,
+        380.0
+      ],
+      "params": [
+        1.0,
+        1.0,
+        2.7799999713897705,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 6,
+      "outputId": 2,
+      "inputModuleId": 0,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 2,
+      "inputModuleId": 0,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 1,
+      "inputModuleId": 4,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 2,
+      "inputModuleId": 1,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 2,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 1,
+      "inputModuleId": 10,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 2,
+      "inputModuleId": 11,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 3,
+      "inputModuleId": 5,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 3,
+      "inputModuleId": 11,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 12
+    },
+    {
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 0
+    }
+  ]
+}
