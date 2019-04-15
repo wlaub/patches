@@ -1278,7 +1278,7 @@
       ],
       "data": {
         "triggerOnLoad": true,
-        "shouldTriggerOnLoad": false
+        "shouldTriggerOnLoad": true
       },
       "pos": [
         109,
@@ -1658,7 +1658,7 @@
         }
       ],
       "data": {
-        "lastPath": "C:\\Users\\Gravyman3321\\Documents\\VCV\\samples\\relay_off/relay_off_4.wav",
+        "lastPath": "C:\\Users\\Gravyman3321\\Documents\\VCV\\samples\\relay_off/relay_off_6.wav",
         "oscstate": 0
       },
       "pos": [
@@ -1701,7 +1701,7 @@
         }
       ],
       "data": {
-        "lastPath": "C:\\Users\\Gravyman3321\\Documents\\VCV\\samples\\relay_on/relay_on_1.wav",
+        "lastPath": "C:\\Users\\Gravyman3321\\Documents\\VCV\\samples\\relay_on/relay_on_3.wav",
         "oscstate": 0
       },
       "pos": [
