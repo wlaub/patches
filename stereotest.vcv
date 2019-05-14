@@ -17,7 +17,7 @@
         }
       },
       "pos": [
-        146,
+        134,
         1
       ]
     },
@@ -129,7 +129,7 @@
       "params": [
         {
           "paramId": 0,
-          "value": 4.06999969
+          "value": 5.08999681
         },
         {
           "paramId": 1,
@@ -613,7 +613,7 @@
         },
         {
           "paramId": 2,
-          "value": -0.305999964
+          "value": -0.407999754
         },
         {
           "paramId": 3,
@@ -733,7 +733,7 @@
       "params": [
         {
           "paramId": 5,
-          "value": 0.0
+          "value": -1.0
         },
         {
           "paramId": 1,
@@ -884,7 +884,7 @@
         "external": 0
       },
       "pos": [
-        157,
+        144,
         1
       ]
     },
@@ -957,7 +957,7 @@
       "params": [
         {
           "paramId": 0,
-          "value": 4.06999969
+          "value": 6.00500107
         },
         {
           "paramId": 1,
@@ -1608,6 +1608,13 @@
       "outputId": 0,
       "inputModuleId": 22,
       "inputId": 1
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 33,
+      "inputId": 4
     }
   ]
 }
