@@ -147,7 +147,6 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 6,
       "rightModuleId": 1,
       "id": 4,
       "pos": [
@@ -189,7 +188,6 @@
           "value": 0.0
         }
       ],
-      "rightModuleId": 6,
       "id": 5,
       "pos": [
         73,
@@ -293,12 +291,11 @@
         "seq_5": "PleiadesSeq_achilles_5.dat",
         "seq_6": "PleiadesSeq_achilles_6.dat"
       },
-      "leftModuleId": 5,
-      "rightModuleId": 4,
+      "leftModuleId": 74,
       "id": 6,
       "pos": [
-        83,
-        3
+        96,
+        0
       ]
     },
     {
@@ -433,7 +430,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.265000552
+          "value": 1.0
         },
         {
           "id": 1,
@@ -1156,9 +1153,10 @@
           "value": 2.64000106
         }
       ],
+      "rightModuleId": 40,
       "id": 26,
       "pos": [
-        95,
+        126,
         0
       ]
     },
@@ -1447,7 +1445,7 @@
       "rightModuleId": 36,
       "id": 35,
       "pos": [
-        116,
+        141,
         0
       ]
     },
@@ -1473,7 +1471,7 @@
       "rightModuleId": 38,
       "id": 36,
       "pos": [
-        119,
+        144,
         0
       ]
     },
@@ -1503,7 +1501,7 @@
       "rightModuleId": 35,
       "id": 37,
       "pos": [
-        111,
+        136,
         0
       ]
     },
@@ -1529,7 +1527,7 @@
       "rightModuleId": 39,
       "id": 38,
       "pos": [
-        122,
+        147,
         0
       ]
     },
@@ -1576,9 +1574,10 @@
         "external": 0
       },
       "leftModuleId": 38,
+      "rightModuleId": 67,
       "id": 39,
       "pos": [
-        125,
+        150,
         0
       ]
     },
@@ -1604,10 +1603,11 @@
           "value": -10.0
         }
       ],
+      "leftModuleId": 26,
       "rightModuleId": 37,
       "id": 40,
       "pos": [
-        106,
+        131,
         0
       ]
     },
@@ -2250,7 +2250,7 @@
         },
         {
           "id": 10,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 11,
@@ -2350,6 +2350,7 @@
           "value": 1.0
         }
       ],
+      "rightModuleId": 72,
       "id": 64,
       "pos": [
         41,
@@ -2379,9 +2380,10 @@
         }
       ],
       "leftModuleId": 69,
+      "rightModuleId": 74,
       "id": 65,
       "pos": [
-        84,
+        81,
         0
       ]
     },
@@ -2427,9 +2429,10 @@
         "lissajous": 0,
         "external": 0
       },
+      "leftModuleId": 39,
       "id": 67,
       "pos": [
-        148,
+        163,
         0
       ]
     },
@@ -2448,7 +2451,7 @@
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": 2.0
         }
       ],
       "data": {
@@ -2458,7 +2461,7 @@
       "rightModuleId": 65,
       "id": 69,
       "pos": [
-        78,
+        75,
         0
       ]
     },
@@ -2484,10 +2487,11 @@
           "value": 10.0
         }
       ],
+      "leftModuleId": 71,
       "rightModuleId": 69,
       "id": 70,
       "pos": [
-        73,
+        70,
         0
       ]
     },
@@ -2505,14 +2509,64 @@
         "triggerOnLoad": false,
         "shouldTriggerOnLoad": true
       },
+      "leftModuleId": 72,
+      "rightModuleId": 70,
       "id": 71,
       "pos": [
         67,
         0
       ]
+    },
+    {
+      "plugin": "Core",
+      "version": "1.0.0",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 64,
+      "rightModuleId": 71,
+      "text": "Need to trigger next step on end of rise. Comparator or something. Alternatively just make this channl be a trigger and starts a ramp.",
+      "id": 72,
+      "pos": [
+        51,
+        0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "1.0.0",
+      "model": "VCMixer",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.41421354
+        },
+        {
+          "id": 2,
+          "value": 1.41421354
+        },
+        {
+          "id": 3,
+          "value": 1.41421354
+        },
+        {
+          "id": 4,
+          "value": 1.41421354
+        }
+      ],
+      "leftModuleId": 65,
+      "rightModuleId": 6,
+      "id": 74,
+      "pos": [
+        86,
+        0
+      ]
     }
   ],
-  "id": 132,
+  "id": 124,
   "cables": [
     {
       "outputModuleId": 5,
@@ -3257,27 +3311,6 @@
       "color": "#0c8e15"
     },
     {
-      "outputModuleId": 65,
-      "outputId": 1,
-      "inputModuleId": 63,
-      "inputId": 21,
-      "color": "#0986ad"
-    },
-    {
-      "outputModuleId": 65,
-      "outputId": 1,
-      "inputModuleId": 63,
-      "inputId": 18,
-      "color": "#c9b70e"
-    },
-    {
-      "outputModuleId": 65,
-      "outputId": 1,
-      "inputModuleId": 63,
-      "inputId": 15,
-      "color": "#0c8e15"
-    },
-    {
       "outputModuleId": 63,
       "outputId": 0,
       "inputModuleId": 67,
@@ -3286,24 +3319,10 @@
     },
     {
       "outputModuleId": 65,
-      "outputId": 1,
-      "inputModuleId": 63,
-      "inputId": 12,
-      "color": "#c91847"
-    },
-    {
-      "outputModuleId": 65,
       "outputId": 0,
       "inputModuleId": 63,
       "inputId": 9,
       "color": "#c9b70e"
-    },
-    {
-      "outputModuleId": 65,
-      "outputId": 1,
-      "inputModuleId": 45,
-      "inputId": 1,
-      "color": "#0986ad"
     },
     {
       "outputModuleId": 6,
@@ -3334,18 +3353,102 @@
       "color": "#c91847"
     },
     {
-      "outputModuleId": 69,
-      "outputId": 0,
-      "inputModuleId": 69,
-      "inputId": 8,
-      "color": "#0986ad"
-    },
-    {
       "outputModuleId": 71,
       "outputId": 0,
       "inputModuleId": 69,
       "inputId": 9,
       "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 65,
+      "outputId": 1,
+      "inputModuleId": 45,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 74,
+      "outputId": 1,
+      "inputModuleId": 63,
+      "inputId": 12,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 74,
+      "outputId": 2,
+      "inputModuleId": 63,
+      "inputId": 15,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 74,
+      "outputId": 3,
+      "inputModuleId": 63,
+      "inputId": 18,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 74,
+      "outputId": 4,
+      "inputModuleId": 63,
+      "inputId": 21,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 65,
+      "outputId": 1,
+      "inputModuleId": 74,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 65,
+      "outputId": 1,
+      "inputModuleId": 74,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 65,
+      "outputId": 1,
+      "inputModuleId": 74,
+      "inputId": 7,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 65,
+      "outputId": 1,
+      "inputModuleId": 74,
+      "inputId": 8,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 70,
+      "outputId": 1,
+      "inputModuleId": 74,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 70,
+      "outputId": 1,
+      "inputModuleId": 74,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 70,
+      "outputId": 1,
+      "inputModuleId": 74,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 70,
+      "outputId": 1,
+      "inputModuleId": 74,
+      "inputId": 1,
+      "color": "#0c8e15"
     }
   ]
 }
