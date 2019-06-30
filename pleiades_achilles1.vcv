@@ -20,7 +20,7 @@
       "rightModuleId": 27,
       "id": 0,
       "pos": [
-        126,
+        116,
         1
       ]
     },
@@ -61,7 +61,7 @@
       "rightModuleId": 16,
       "id": 1,
       "pos": [
-        110,
+        95,
         3
       ]
     },
@@ -91,7 +91,7 @@
       "rightModuleId": 11,
       "id": 2,
       "pos": [
-        85,
+        75,
         1
       ]
     },
@@ -121,7 +121,7 @@
       "rightModuleId": 52,
       "id": 3,
       "pos": [
-        103,
+        93,
         1
       ]
     },
@@ -147,10 +147,11 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 6,
       "rightModuleId": 1,
       "id": 4,
       "pos": [
-        105,
+        90,
         3
       ]
     },
@@ -188,9 +189,10 @@
           "value": 0.0
         }
       ],
+      "rightModuleId": 6,
       "id": 5,
       "pos": [
-        73,
+        58,
         3
       ]
     },
@@ -291,11 +293,12 @@
         "seq_5": "PleiadesSeq_achilles_5.dat",
         "seq_6": "PleiadesSeq_achilles_6.dat"
       },
-      "leftModuleId": 74,
+      "leftModuleId": 5,
+      "rightModuleId": 4,
       "id": 6,
       "pos": [
-        96,
-        0
+        68,
+        3
       ]
     },
     {
@@ -389,7 +392,7 @@
       "rightModuleId": 0,
       "id": 7,
       "pos": [
-        117,
+        107,
         1
       ]
     },
@@ -419,7 +422,7 @@
       "rightModuleId": 12,
       "id": 11,
       "pos": [
-        93,
+        83,
         1
       ]
     },
@@ -449,7 +452,7 @@
       "rightModuleId": 3,
       "id": 12,
       "pos": [
-        98,
+        88,
         1
       ]
     },
@@ -627,10 +630,11 @@
           "value": -1.0
         }
       ],
+      "leftModuleId": 25,
       "rightModuleId": 44,
       "id": 14,
       "pos": [
-        61,
+        47,
         2
       ]
     },
@@ -740,7 +744,7 @@
       "rightModuleId": 45,
       "id": 15,
       "pos": [
-        110,
+        96,
         2
       ]
     },
@@ -790,7 +794,7 @@
       "rightModuleId": 55,
       "id": 16,
       "pos": [
-        130,
+        115,
         3
       ]
     },
@@ -848,7 +852,7 @@
       "rightModuleId": 24,
       "id": 17,
       "pos": [
-        49,
+        35,
         3
       ]
     },
@@ -886,7 +890,7 @@
       "rightModuleId": 19,
       "id": 18,
       "pos": [
-        39,
+        30,
         1
       ]
     },
@@ -917,9 +921,10 @@
         }
       ],
       "leftModuleId": 18,
+      "rightModuleId": 63,
       "id": 19,
       "pos": [
-        49,
+        40,
         1
       ]
     },
@@ -932,7 +937,7 @@
       "rightModuleId": 18,
       "id": 20,
       "pos": [
-        36,
+        27,
         1
       ]
     },
@@ -990,7 +995,7 @@
       "rightModuleId": 17,
       "id": 21,
       "pos": [
-        39,
+        25,
         3
       ]
     },
@@ -1020,7 +1025,7 @@
       "rightModuleId": 25,
       "id": 22,
       "pos": [
-        45,
+        33,
         2
       ]
     },
@@ -1046,10 +1051,11 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 31,
       "rightModuleId": 22,
       "id": 23,
       "pos": [
-        40,
+        28,
         2
       ]
     },
@@ -1098,7 +1104,7 @@
       "leftModuleId": 17,
       "id": 24,
       "pos": [
-        59,
+        45,
         3
       ]
     },
@@ -1125,9 +1131,10 @@
         }
       ],
       "leftModuleId": 22,
+      "rightModuleId": 14,
       "id": 25,
       "pos": [
-        51,
+        39,
         2
       ]
     },
@@ -1142,7 +1149,7 @@
         },
         {
           "id": 1,
-          "value": 10.0
+          "value": 5.94999599
         },
         {
           "id": 2,
@@ -1153,10 +1160,11 @@
           "value": 2.64000106
         }
       ],
+      "leftModuleId": 74,
       "rightModuleId": 40,
       "id": 26,
       "pos": [
-        126,
+        82,
         0
       ]
     },
@@ -1206,7 +1214,7 @@
       "rightModuleId": 58,
       "id": 27,
       "pos": [
-        136,
+        126,
         1
       ]
     },
@@ -1236,11 +1244,11 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 41,
+      "leftModuleId": 29,
       "rightModuleId": 20,
       "id": 28,
       "pos": [
-        28,
+        19,
         1
       ]
     },
@@ -1266,11 +1274,12 @@
           "value": 0.361999899
         }
       ],
-      "leftModuleId": 34,
+      "leftModuleId": 41,
+      "rightModuleId": 28,
       "id": 29,
       "pos": [
-        3,
-        2
+        11,
+        1
       ]
     },
     {
@@ -1327,9 +1336,11 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 42,
+      "rightModuleId": 23,
       "id": 31,
       "pos": [
-        14,
+        8,
         2
       ]
     },
@@ -1347,10 +1358,11 @@
         "triggerOnLoad": false,
         "shouldTriggerOnLoad": true
       },
+      "rightModuleId": 42,
       "id": 32,
       "pos": [
-        14,
-        1
+        0,
+        2
       ]
     },
     {
@@ -1398,29 +1410,8 @@
       "rightModuleId": 49,
       "id": 33,
       "pos": [
-        16,
+        2,
         3
-      ]
-    },
-    {
-      "plugin": "Bogaudio",
-      "version": "1.0.17",
-      "model": "Bogaudio-Manual",
-      "params": [
-        {
-          "id": 0,
-          "value": 0.0
-        }
-      ],
-      "data": {
-        "triggerOnLoad": false,
-        "shouldTriggerOnLoad": true
-      },
-      "rightModuleId": 29,
-      "id": 34,
-      "pos": [
-        0,
-        2
       ]
     },
     {
@@ -1445,7 +1436,7 @@
       "rightModuleId": 36,
       "id": 35,
       "pos": [
-        141,
+        97,
         0
       ]
     },
@@ -1471,7 +1462,7 @@
       "rightModuleId": 38,
       "id": 36,
       "pos": [
-        144,
+        100,
         0
       ]
     },
@@ -1501,7 +1492,7 @@
       "rightModuleId": 35,
       "id": 37,
       "pos": [
-        136,
+        92,
         0
       ]
     },
@@ -1527,7 +1518,7 @@
       "rightModuleId": 39,
       "id": 38,
       "pos": [
-        147,
+        103,
         0
       ]
     },
@@ -1577,7 +1568,7 @@
       "rightModuleId": 67,
       "id": 39,
       "pos": [
-        150,
+        106,
         0
       ]
     },
@@ -1607,7 +1598,7 @@
       "rightModuleId": 37,
       "id": 40,
       "pos": [
-        131,
+        87,
         0
       ]
     },
@@ -1626,10 +1617,10 @@
           "blockSize": 256
         }
       },
-      "rightModuleId": 28,
+      "rightModuleId": 29,
       "id": 41,
       "pos": [
-        18,
+        1,
         1
       ]
     },
@@ -1655,10 +1646,12 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 32,
+      "rightModuleId": 31,
       "id": 42,
       "pos": [
-        6,
-        1
+        3,
+        2
       ]
     },
     {
@@ -1683,7 +1676,7 @@
       "rightModuleId": 46,
       "id": 43,
       "pos": [
-        99,
+        85,
         2
       ]
     },
@@ -1713,7 +1706,7 @@
       "rightModuleId": 48,
       "id": 44,
       "pos": [
-        88,
+        74,
         2
       ]
     },
@@ -1762,7 +1755,7 @@
       "leftModuleId": 15,
       "id": 45,
       "pos": [
-        128,
+        114,
         2
       ]
     },
@@ -1788,7 +1781,7 @@
       "rightModuleId": 47,
       "id": 46,
       "pos": [
-        102,
+        88,
         2
       ]
     },
@@ -1818,7 +1811,7 @@
       "rightModuleId": 15,
       "id": 47,
       "pos": [
-        105,
+        91,
         2
       ]
     },
@@ -1844,7 +1837,7 @@
       "rightModuleId": 43,
       "id": 48,
       "pos": [
-        93,
+        79,
         2
       ]
     },
@@ -1902,7 +1895,7 @@
       "rightModuleId": 21,
       "id": 49,
       "pos": [
-        29,
+        15,
         3
       ]
     },
@@ -1920,7 +1913,7 @@
       "rightModuleId": 53,
       "id": 52,
       "pos": [
-        111,
+        101,
         1
       ]
     },
@@ -1938,7 +1931,7 @@
       "rightModuleId": 7,
       "id": 53,
       "pos": [
-        114,
+        104,
         1
       ]
     },
@@ -1956,7 +1949,7 @@
       "rightModuleId": 59,
       "id": 55,
       "pos": [
-        143,
+        128,
         3
       ]
     },
@@ -1993,7 +1986,7 @@
       "leftModuleId": 57,
       "id": 56,
       "pos": [
-        151,
+        137,
         2
       ]
     },
@@ -2026,7 +2019,7 @@
       "rightModuleId": 56,
       "id": 57,
       "pos": [
-        143,
+        129,
         2
       ]
     },
@@ -2075,7 +2068,7 @@
       "leftModuleId": 27,
       "id": 58,
       "pos": [
-        149,
+        139,
         1
       ]
     },
@@ -2109,7 +2102,7 @@
       "rightModuleId": 61,
       "id": 59,
       "pos": [
-        161,
+        146,
         3
       ]
     },
@@ -2132,7 +2125,7 @@
       },
       "id": 60,
       "pos": [
-        167,
+        153,
         2
       ]
     },
@@ -2166,7 +2159,7 @@
       "rightModuleId": 62,
       "id": 61,
       "pos": [
-        169,
+        154,
         3
       ]
     },
@@ -2199,7 +2192,7 @@
       "leftModuleId": 61,
       "id": 62,
       "pos": [
-        177,
+        162,
         3
       ]
     },
@@ -2313,10 +2306,11 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 19,
       "rightModuleId": 2,
       "id": 63,
       "pos": [
-        58,
+        48,
         1
       ]
     },
@@ -2353,7 +2347,7 @@
       "rightModuleId": 72,
       "id": 64,
       "pos": [
-        41,
+        27,
         0
       ]
     },
@@ -2383,7 +2377,7 @@
       "rightModuleId": 74,
       "id": 65,
       "pos": [
-        81,
+        67,
         0
       ]
     },
@@ -2432,7 +2426,7 @@
       "leftModuleId": 39,
       "id": 67,
       "pos": [
-        163,
+        119,
         0
       ]
     },
@@ -2461,7 +2455,7 @@
       "rightModuleId": 65,
       "id": 69,
       "pos": [
-        75,
+        61,
         0
       ]
     },
@@ -2491,7 +2485,7 @@
       "rightModuleId": 69,
       "id": 70,
       "pos": [
-        70,
+        56,
         0
       ]
     },
@@ -2513,7 +2507,7 @@
       "rightModuleId": 70,
       "id": 71,
       "pos": [
-        67,
+        53,
         0
       ]
     },
@@ -2527,7 +2521,7 @@
       "text": "Need to trigger next step on end of rise. Comparator or something. Alternatively just make this channl be a trigger and starts a ramp.",
       "id": 72,
       "pos": [
-        51,
+        37,
         0
       ]
     },
@@ -2558,15 +2552,15 @@
         }
       ],
       "leftModuleId": 65,
-      "rightModuleId": 6,
+      "rightModuleId": 26,
       "id": 74,
       "pos": [
-        86,
+        72,
         0
       ]
     }
   ],
-  "id": 124,
+  "id": 133,
   "cables": [
     {
       "outputModuleId": 5,
@@ -3449,6 +3443,20 @@
       "inputModuleId": 74,
       "inputId": 1,
       "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 63,
+      "outputId": 0,
+      "inputModuleId": 35,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 63,
+      "outputId": 1,
+      "inputModuleId": 36,
+      "inputId": 2,
+      "color": "#0986ad"
     }
   ]
 }
