@@ -255,7 +255,7 @@
       ],
       "data": {
         "seq_name": "achilles",
-        "format_id": 1,
+        "format_id": 2,
         "seq_0": "PleiadesSeq_achilles_0.dat",
         "seq_1": "PleiadesSeq_achilles_1.dat",
         "seq_2": "PleiadesSeq_achilles_2.dat",
@@ -404,11 +404,11 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.126999751
         },
         {
           "id": 1,
-          "value": -2.6399982
+          "value": -2.6999979
         },
         {
           "id": 2,
@@ -1086,7 +1086,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.306499898
+          "value": 0.279000014
         },
         {
           "id": 1,
@@ -1098,7 +1098,7 @@
         },
         {
           "id": 3,
-          "value": 0.361999899
+          "value": 0.636499941
         }
       ],
       "leftModuleId": 22,
@@ -1120,7 +1120,7 @@
         },
         {
           "id": 1,
-          "value": 7.71999645
+          "value": 8.16999912
         },
         {
           "id": 2,
@@ -1162,7 +1162,7 @@
         },
         {
           "id": 4,
-          "value": 6.38999939
+          "value": 6.0
         },
         {
           "id": 5,
@@ -1553,7 +1553,7 @@
         },
         {
           "id": 1,
-          "value": -10.0
+          "value": 8.31000233
         },
         {
           "id": 2,
@@ -1686,7 +1686,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": -0.0
         },
         {
           "id": 1,
@@ -1694,7 +1694,7 @@
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": -2.0
         },
         {
           "id": 3,
@@ -1744,7 +1744,7 @@
         },
         {
           "id": 2,
-          "value": 0.572999835
+          "value": 0.539999783
         }
       ],
       "leftModuleId": 14,
@@ -1820,7 +1820,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.833333313
+          "value": 1.0
         }
       ],
       "leftModuleId": 3,
@@ -1838,7 +1838,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.833333313
+          "value": 1.0
         }
       ],
       "leftModuleId": 52,
@@ -2168,7 +2168,7 @@
         },
         {
           "id": 18,
-          "value": 0.909090936
+          "value": 0.915090978
         },
         {
           "id": 19,
@@ -2255,7 +2255,7 @@
         },
         {
           "id": 1,
-          "value": 0.0700002313
+          "value": 10.0
         },
         {
           "id": 2,
@@ -2363,7 +2363,7 @@
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": -0.0299996436
         },
         {
           "id": 2,
@@ -2473,9 +2473,57 @@
         142,
         2
       ]
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "1.0.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 1.04999971
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "id": 76,
+      "pos": [
+        3,
+        2
+      ]
     }
   ],
-  "id": 84,
+  "id": 122,
   "cables": [
     {
       "outputModuleId": 5,
@@ -2553,13 +2601,6 @@
       "inputModuleId": 14,
       "inputId": 13,
       "color": "#c9b70e"
-    },
-    {
-      "outputModuleId": 14,
-      "outputId": 1,
-      "inputModuleId": 14,
-      "inputId": 5,
-      "color": "#0c8e15"
     },
     {
       "outputModuleId": 14,
@@ -2656,13 +2697,6 @@
       "outputModuleId": 26,
       "outputId": 1,
       "inputModuleId": 11,
-      "inputId": 0,
-      "color": "#c9b70e"
-    },
-    {
-      "outputModuleId": 6,
-      "outputId": 6,
-      "inputModuleId": 27,
       "inputId": 0,
       "color": "#c9b70e"
     },
@@ -2847,20 +2881,6 @@
       "inputModuleId": 33,
       "inputId": 0,
       "color": "#c91847"
-    },
-    {
-      "outputModuleId": 14,
-      "outputId": 2,
-      "inputModuleId": 16,
-      "inputId": 0,
-      "color": "#c91847"
-    },
-    {
-      "outputModuleId": 14,
-      "outputId": 0,
-      "inputModuleId": 16,
-      "inputId": 1,
-      "color": "#0986ad"
     },
     {
       "outputModuleId": 6,
@@ -3199,13 +3219,6 @@
       "color": "#c9b70e"
     },
     {
-      "outputModuleId": 65,
-      "outputId": 1,
-      "inputModuleId": 45,
-      "inputId": 1,
-      "color": "#0986ad"
-    },
-    {
       "outputModuleId": 74,
       "outputId": 1,
       "inputModuleId": 63,
@@ -3336,6 +3349,41 @@
       "outputId": 0,
       "inputModuleId": 57,
       "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 40,
+      "outputId": 0,
+      "inputModuleId": 63,
+      "inputId": 24,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 25,
+      "outputId": 0,
+      "inputModuleId": 76,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 27,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 15,
+      "outputId": 2,
+      "inputModuleId": 16,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 14,
+      "outputId": 2,
+      "inputModuleId": 16,
+      "inputId": 0,
       "color": "#c91847"
     }
   ]
