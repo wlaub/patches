@@ -2567,7 +2567,7 @@
         },
         {
           "id": 25,
-          "value": 1.0
+          "value": 0.5
         },
         {
           "id": 26,
@@ -2587,7 +2587,7 @@
         },
         {
           "id": 30,
-          "value": 1.0
+          "value": 3.15400004
         },
         {
           "id": 31,
@@ -2678,7 +2678,7 @@
         "m_nysthi_file_id0": "/home/wlaub/.Rack/plugins-v1/NYSTHI/cache/XANOODA_8W1Dtvix_20191223_134608_pDZrmz.wav",
         "m_gated0": false,
         "m_oneshot0": false,
-        "m_original_file_name0": "drone1c_20191230_165439_jZHfdd_monorecorder_Nso6YVAg.wav",
+        "m_original_file_name0": "drone1c_channelA.wav",
         "m_cv_can_be_negative": false,
         "nysthi_id1": "XANOODA_0mY0fNXE",
         "m_nysthi_file_id1": "/home/wlaub/.Rack/plugins-v1/NYSTHI/cache/XANOODA_0mY0fNXE_20191223_134608_l0SYnp.wav",
@@ -3622,7 +3622,7 @@
       "model": "Notes",
       "params": [],
       "rightModuleId": 222,
-      "text": "0 = Unused\n1 = Didge drone\n2 = Throat drone\n3 = Didge drone\n\nRate = 2.50, CV = NONE\nRate = 3.75, CV = ADDR-SEQ\nRate = 5.00, CV = ADDR-SEQ\nSINE 0.5 HZ, 3 - 4.5 V = .6 - .9",
+      "text": "0 = ?????\n1 = Didge drone\n2 = Throat drone\n3 = Didge drone\n\nRate = 2.50, CV = NONE\nRate = 3.75, CV = ADDR-SEQ\nRate = 5.00, CV = ADDR-SEQ\nSINE 0.5 HZ, 3 - 4.5 V = .6 - .9",
       "pos": [
         43,
         2
@@ -4484,7 +4484,7 @@
       "params": [
         {
           "id": 0,
-          "value": -1.0
+          "value": 0.84799993
         },
         {
           "id": 1,
@@ -5195,14 +5195,6 @@
       "inputModuleId": 420,
       "inputId": 0,
       "color": "#0c8e15"
-    },
-    {
-      "id": 1401,
-      "outputModuleId": 268,
-      "outputId": 0,
-      "inputModuleId": 421,
-      "inputId": 0,
-      "color": "#c91847"
     },
     {
       "id": 1399,
@@ -6219,6 +6211,22 @@
       "inputModuleId": 499,
       "inputId": 0,
       "color": "#0986ad"
+    },
+    {
+      "id": 1632,
+      "outputModuleId": 449,
+      "outputId": 0,
+      "inputModuleId": 421,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 1634,
+      "outputModuleId": 442,
+      "outputId": 4,
+      "inputModuleId": 449,
+      "inputId": 5,
+      "color": "#0c8e15"
     }
   ]
 }
