@@ -1046,7 +1046,7 @@
         },
         {
           "id": 5,
-          "value": 3.75
+          "value": 5.0
         },
         {
           "id": 6,
@@ -1646,7 +1646,7 @@
         },
         {
           "id": 18,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 19,
@@ -1792,7 +1792,7 @@
         },
         {
           "id": 14,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 15,
@@ -1808,7 +1808,7 @@
         },
         {
           "id": 18,
-          "value": 0.0
+          "value": 0.230999917
         },
         {
           "id": 19,
@@ -1942,7 +1942,7 @@
         },
         {
           "id": 16,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 17,
@@ -2571,7 +2571,7 @@
         },
         {
           "id": 26,
-          "value": 1.0
+          "value": 0.5
         },
         {
           "id": 27,
@@ -2591,7 +2591,7 @@
         },
         {
           "id": 31,
-          "value": 1.0
+          "value": 3.15400004
         },
         {
           "id": 32,
@@ -2684,7 +2684,7 @@
         "m_nysthi_file_id1": "/home/wlaub/.Rack/plugins-v1/NYSTHI/cache/XANOODA_0mY0fNXE_20191223_134608_l0SYnp.wav",
         "m_gated1": false,
         "m_oneshot1": false,
-        "m_original_file_name1": "",
+        "m_original_file_name1": "drone1c_channelB.wav",
         "nysthi_id2": "XANOODA_1U1xSSYQ",
         "m_nysthi_file_id2": "/home/wlaub/.Rack/plugins-v1/NYSTHI/cache/XANOODA_1U1xSSYQ_20191223_134608_T8PL9A.wav",
         "m_gated2": false,
@@ -3634,7 +3634,6 @@
       "version": "1.1.6",
       "model": "Notes",
       "params": [],
-      "leftModuleId": 504,
       "rightModuleId": 442,
       "text": "0 = Mix against throat, low pitch humming. drone1c_ThroatPickup.wav\n\n\n1.5913\n-0.58562\n\n\n\n",
       "pos": [
@@ -3764,7 +3763,7 @@
         },
         {
           "id": 16,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 17,
@@ -3827,6 +3826,7 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 504,
       "rightModuleId": 422,
       "pos": [
         155,
@@ -4484,7 +4484,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": -1.0
         },
         {
           "id": 1,
@@ -4495,11 +4495,10 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 505,
-      "rightModuleId": 480,
+      "rightModuleId": 484,
       "pos": [
-        42,
-        3
+        152,
+        2
       ]
     },
     {
@@ -4508,7 +4507,6 @@
       "version": "1.1.25",
       "model": "Bogaudio-AnalyzerXL",
       "params": [],
-      "rightModuleId": 504,
       "data": {
         "range": -0.75,
         "range_db": 80.0,
@@ -5343,22 +5341,6 @@
       "color": "#0c8e15"
     },
     {
-      "id": 924,
-      "outputModuleId": 287,
-      "outputId": 0,
-      "inputModuleId": 268,
-      "inputId": 13,
-      "color": "#0c8e15"
-    },
-    {
-      "id": 1402,
-      "outputModuleId": 268,
-      "outputId": 1,
-      "inputModuleId": 421,
-      "inputId": 1,
-      "color": "#0986ad"
-    },
-    {
       "id": 1450,
       "outputModuleId": 442,
       "outputId": 4,
@@ -6111,22 +6093,6 @@
       "color": "#0c8e15"
     },
     {
-      "id": 1601,
-      "outputModuleId": 449,
-      "outputId": 2,
-      "inputModuleId": 475,
-      "inputId": 1,
-      "color": "#0986ad"
-    },
-    {
-      "id": 1602,
-      "outputModuleId": 268,
-      "outputId": 6,
-      "inputModuleId": 449,
-      "inputId": 7,
-      "color": "#c9b70e"
-    },
-    {
       "id": 1603,
       "outputModuleId": 287,
       "outputId": 0,
@@ -6147,38 +6113,6 @@
       "outputModuleId": 503,
       "outputId": 0,
       "inputModuleId": 498,
-      "inputId": 1,
-      "color": "#0986ad"
-    },
-    {
-      "id": 1606,
-      "outputModuleId": 449,
-      "outputId": 2,
-      "inputModuleId": 499,
-      "inputId": 0,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 1611,
-      "outputModuleId": 268,
-      "outputId": 2,
-      "inputModuleId": 475,
-      "inputId": 0,
-      "color": "#0c8e15"
-    },
-    {
-      "id": 1612,
-      "outputModuleId": 268,
-      "outputId": 2,
-      "inputModuleId": 505,
-      "inputId": 0,
-      "color": "#c91847"
-    },
-    {
-      "id": 1613,
-      "outputModuleId": 449,
-      "outputId": 2,
-      "inputModuleId": 505,
       "inputId": 1,
       "color": "#0986ad"
     },
@@ -6221,6 +6155,70 @@
       "inputModuleId": 421,
       "inputId": 2,
       "color": "#c9b70e"
+    },
+    {
+      "id": 1620,
+      "outputModuleId": 287,
+      "outputId": 0,
+      "inputModuleId": 268,
+      "inputId": 13,
+      "color": "#0986ad"
+    },
+    {
+      "id": 1621,
+      "outputModuleId": 510,
+      "outputId": 0,
+      "inputModuleId": 449,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 1622,
+      "outputModuleId": 449,
+      "outputId": 1,
+      "inputModuleId": 475,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1623,
+      "outputModuleId": 449,
+      "outputId": 1,
+      "inputModuleId": 505,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 1626,
+      "outputModuleId": 449,
+      "outputId": 1,
+      "inputModuleId": 421,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1602,
+      "outputModuleId": 442,
+      "outputId": 4,
+      "inputModuleId": 449,
+      "inputId": 6,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 1627,
+      "outputModuleId": 442,
+      "outputId": 4,
+      "inputModuleId": 449,
+      "inputId": 7,
+      "color": "#c91847"
+    },
+    {
+      "id": 1628,
+      "outputModuleId": 449,
+      "outputId": 1,
+      "inputModuleId": 499,
+      "inputId": 0,
+      "color": "#0986ad"
     }
   ]
 }
