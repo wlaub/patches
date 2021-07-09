@@ -4396,6 +4396,7 @@
           "value": 0.900999904
         }
       ],
+      "rightModuleId": 675,
       "data": {
         "m_windowing_function": 1,
         "m_bgnd_style": 0,
@@ -5070,10 +5071,10 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          3,
           2,
-          2,
-          2
+          6,
+          6,
+          6
         ],
         "clockState": [
           false,
@@ -5792,19 +5793,19 @@
         },
         {
           "id": 2,
-          "value": 1.0
+          "value": 2.0
         }
       ],
-      "rightModuleId": 680,
+      "leftModuleId": 633,
       "description": "Test desc\nTest",
       "tags": "prometheus II, demo",
       "authors": "Roots of Unity",
       "override_time": "2020-04-20",
       "trigger_time": 1623369017,
-      "time_source": "trigger",
+      "time_source": "override",
       "pos": [
-        35,
-        0
+        219,
+        5
       ]
     },
     {
@@ -5822,9 +5823,8 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 675,
       "rightModuleId": 681,
-      "files": "/home/wlaub/.Rack/screenshots/20210615-142429.png\n/home/wlaub/.Rack/202005311525_2T.002.mp3",
+      "files": "/home/wlaub/.Rack/screenshots/20210615-142429.png",
       "dir": "/home/wlaub/.Rack",
       "file_type": "image",
       "file_type_id": 0,
