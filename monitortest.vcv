@@ -5071,16 +5071,16 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          3,
-          2,
-          2,
-          2
+          4,
+          1,
+          1,
+          1
         ],
         "clockState": [
-          false,
-          false,
-          false,
-          false
+          true,
+          true,
+          true,
+          true
         ],
         "runState": [
           true,
@@ -5266,7 +5266,7 @@
         },
         {
           "id": 38,
-          "value": 8.0
+          "value": 1.0
         },
         {
           "id": 39,
@@ -5861,7 +5861,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 1,
@@ -5874,7 +5874,7 @@
       ],
       "leftModuleId": 633,
       "description": "Test desc\nTest",
-      "tags": "prometheus II",
+      "tags": "prometheus II, demo, bldng",
       "authors": "Roots of Unity",
       "override_time": "2020-04-20",
       "trigger_time": 1623369017,
