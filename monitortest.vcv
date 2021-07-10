@@ -5071,10 +5071,10 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          7,
-          6,
-          6,
-          6
+          1,
+          5,
+          5,
+          5
         ],
         "clockState": [
           false,
@@ -5266,7 +5266,7 @@
         },
         {
           "id": 38,
-          "value": 3.0
+          "value": 8.0
         },
         {
           "id": 39,
@@ -5798,7 +5798,7 @@
       ],
       "leftModuleId": 633,
       "description": "Test desc\nTest",
-      "tags": "prometheus II, demo",
+      "tags": "prometheus II:w",
       "authors": "Roots of Unity",
       "override_time": "2020-04-20",
       "trigger_time": 1623369017,
