@@ -2637,9 +2637,9 @@
         "moduleVersion": 1.10000002,
         "currentStep": [
           5,
-          1,
-          1,
-          1
+          2,
+          2,
+          2
         ],
         "clockState": [
           true,
@@ -3428,11 +3428,11 @@
         "moduleVersion": 1,
         "QStates": [
           false,
-          false
+          true
         ],
         "NQStates": [
           true,
-          true
+          false
         ],
         "theme": 0
       },
@@ -3641,6 +3641,72 @@
       },
       "pos": [
         73,
+        3
+      ]
+    },
+    {
+      "id": 690,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Mutes",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "states": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "pos": [
+        58,
         3
       ]
     }
@@ -4263,14 +4329,6 @@
       "color": "#c9b70e"
     },
     {
-      "id": 1411,
-      "outputModuleId": 25,
-      "outputId": 0,
-      "inputModuleId": 675,
-      "inputId": 0,
-      "color": "#0c8e15"
-    },
-    {
       "id": 1413,
       "outputModuleId": 25,
       "outputId": 1,
@@ -4357,6 +4415,30 @@
       "inputModuleId": 687,
       "inputId": 2,
       "color": "#0986ad"
+    },
+    {
+      "id": 1422,
+      "outputModuleId": 690,
+      "outputId": 0,
+      "inputModuleId": 675,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1423,
+      "outputModuleId": 690,
+      "outputId": 0,
+      "inputModuleId": 25,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 1424,
+      "outputModuleId": 648,
+      "outputId": 0,
+      "inputModuleId": 690,
+      "inputId": 0,
+      "color": "#c9b70e"
     }
   ]
 }
