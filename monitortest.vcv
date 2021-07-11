@@ -337,7 +337,7 @@
         },
         {
           "id": 36,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 52,
@@ -2636,10 +2636,10 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          5,
           4,
-          4,
-          4
+          1,
+          1,
+          1
         ],
         "clockState": [
           true,
@@ -2831,7 +2831,7 @@
         },
         {
           "id": 38,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 39,
@@ -3586,11 +3586,11 @@
         },
         {
           "id": 1,
-          "value": 9.60877609
+          "value": 14.2877121
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": 0.548999965
         }
       ],
       "leftModuleId": 688,
@@ -3693,7 +3693,7 @@
       ],
       "data": {
         "states": [
-          true,
+          false,
           true,
           true,
           true,
@@ -4161,14 +4161,6 @@
       "color": "#c91847"
     },
     {
-      "id": 1359,
-      "outputModuleId": 655,
-      "outputId": 8,
-      "inputModuleId": 644,
-      "inputId": 3,
-      "color": "#c9b70e"
-    },
-    {
       "id": 1365,
       "outputModuleId": 52,
       "outputId": 0,
@@ -4401,14 +4393,6 @@
       "color": "#0c8e15"
     },
     {
-      "id": 1420,
-      "outputModuleId": 687,
-      "outputId": 2,
-      "inputModuleId": 52,
-      "inputId": 0,
-      "color": "#c91847"
-    },
-    {
       "id": 1421,
       "outputModuleId": 688,
       "outputId": 4,
@@ -4439,6 +4423,22 @@
       "inputModuleId": 690,
       "inputId": 0,
       "color": "#c9b70e"
+    },
+    {
+      "id": 1359,
+      "outputModuleId": 655,
+      "outputId": 8,
+      "inputModuleId": 644,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 1420,
+      "outputModuleId": 687,
+      "outputId": 2,
+      "inputModuleId": 52,
+      "inputId": 0,
+      "color": "#c91847"
     }
   ]
 }
