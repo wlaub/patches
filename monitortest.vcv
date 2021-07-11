@@ -337,7 +337,7 @@
         },
         {
           "id": 36,
-          "value": 1.0
+          "value": 0.0
         }
       ],
       "leftModuleId": 52,
@@ -2636,10 +2636,10 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
+          5,
           4,
-          1,
-          1,
-          1
+          4,
+          4
         ],
         "clockState": [
           true,
@@ -2831,7 +2831,7 @@
         },
         {
           "id": 38,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 39,
@@ -3586,11 +3586,11 @@
         },
         {
           "id": 1,
-          "value": 14.2877121
+          "value": 8.59226131
         },
         {
           "id": 2,
-          "value": 0.548999965
+          "value": 0.0
         }
       ],
       "leftModuleId": 688,
@@ -3693,7 +3693,7 @@
       ],
       "data": {
         "states": [
-          false,
+          true,
           true,
           true,
           true,
