@@ -2637,9 +2637,9 @@
         "moduleVersion": 1.10000002,
         "currentStep": [
           5,
-          2,
-          2,
-          2
+          4,
+          4,
+          4
         ],
         "clockState": [
           true,
@@ -3325,8 +3325,8 @@
       ],
       "leftModuleId": 297,
       "rightModuleId": 681,
-      "files": "",
-      "dir": "/home/wlaub/.Rack",
+      "files": "/home/wlaub/.Rack/screenshots/20210710-180917.png",
+      "dir": "/home/wlaub/.Rack/screenshots",
       "file_type": "image",
       "file_type_id": 0,
       "pos": [
