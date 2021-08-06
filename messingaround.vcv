@@ -465,6 +465,7 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 60,
       "rightModuleId": 59,
       "pos": [
         95,
@@ -487,7 +488,7 @@
         }
       ],
       "rightModuleId": 29,
-      "files": "",
+      "files": "/home/wlaub/.Rack/screenshots/20210806-165702.png",
       "dir": "/home/wlaub/.Rack/screenshots",
       "file_type": "image",
       "file_type_id": 0,
@@ -521,7 +522,7 @@
       "tags": "prometheus II, wet",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1628039680,
+      "trigger_time": 1628294285,
       "time_source": "trigger",
       "pos": [
         120,
@@ -536,7 +537,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 57,
@@ -983,8 +984,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 3,
-        "pc": 5,
+        "nc": 2,
+        "pc": 0,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -1372,6 +1373,30 @@
         112,
         1
       ]
+    },
+    {
+      "id": 60,
+      "plugin": "CountModula",
+      "version": "1.14.0",
+      "model": "SRFlipFlop",
+      "params": [],
+      "rightModuleId": 27,
+      "data": {
+        "moduleVersion": 1,
+        "QStates": [
+          true,
+          false
+        ],
+        "NQStates": [
+          false,
+          true
+        ],
+        "theme": 6
+      },
+      "pos": [
+        87,
+        1
+      ]
     }
   ],
   "cables": [
@@ -1454,14 +1479,6 @@
       "inputModuleId": 29,
       "inputId": 0,
       "color": "#0c8e15"
-    },
-    {
-      "id": 38,
-      "outputModuleId": 30,
-      "outputId": 0,
-      "inputModuleId": 26,
-      "inputId": 2,
-      "color": "#c91847"
     },
     {
       "id": 39,
@@ -1582,14 +1599,6 @@
       "inputModuleId": 12,
       "inputId": 4,
       "color": "#c9b70e"
-    },
-    {
-      "id": 102,
-      "outputModuleId": 55,
-      "outputId": 0,
-      "inputModuleId": 53,
-      "inputId": 3,
-      "color": "#0c8e15"
     },
     {
       "id": 74,
@@ -1718,6 +1727,38 @@
       "inputModuleId": 59,
       "inputId": 7,
       "color": "#0986ad"
+    },
+    {
+      "id": 38,
+      "outputModuleId": 30,
+      "outputId": 0,
+      "inputModuleId": 26,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 102,
+      "outputModuleId": 30,
+      "outputId": 3,
+      "inputModuleId": 53,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 120,
+      "outputModuleId": 60,
+      "outputId": 0,
+      "inputModuleId": 27,
+      "inputId": 7,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 121,
+      "outputModuleId": 30,
+      "outputId": 4,
+      "inputModuleId": 60,
+      "inputId": 0,
+      "color": "#c91847"
     }
   ]
 }
