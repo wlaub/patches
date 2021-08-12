@@ -7,6 +7,7 @@
       "version": "1.1.6",
       "model": "Notes",
       "params": [],
+      "rightModuleId": 61,
       "text": "Demo patch instructions:\n\n1. Choose an audio driver and device in the AUDIO-8 module.\n\n2. Use the QWERTY and ZXCVB rows of your keyboard to generate MIDI notes, which are converted to 1V/oct and GATE signals.\n\n3. Drag knobs up/down. Hold Ctrl (Cmd on Mac) while dragging to fine-tune. Right-click knobs to edit, or double-click to initialize.\n\n4. Drag ports to create and move cables. Stack multiple cables on outputs by holding Ctrl (Cmd on Mac) and dragging from an output.\n\n5. Right-click on an empty rack space to add new modules.",
       "pos": [
         114,
@@ -334,7 +335,7 @@
         },
         {
           "id": 4,
-          "value": 0.405000031
+          "value": 0.475500017
         },
         {
           "id": 5,
@@ -382,11 +383,11 @@
         },
         {
           "id": 16,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 17,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 18,
@@ -537,7 +538,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         }
       ],
       "leftModuleId": 57,
@@ -984,8 +985,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 2,
-        "pc": 0,
+        "nc": 1,
+        "pc": 3,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -1397,6 +1398,55 @@
         87,
         1
       ]
+    },
+    {
+      "id": 61,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 2.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 13.9300013
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.720000267
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 8,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        130,
+        0
+      ]
     }
   ],
   "cables": [
@@ -1681,14 +1731,6 @@
       "color": "#c9b70e"
     },
     {
-      "id": 103,
-      "outputModuleId": 56,
-      "outputId": 2,
-      "inputModuleId": 27,
-      "inputId": 3,
-      "color": "#c91847"
-    },
-    {
       "id": 115,
       "outputModuleId": 27,
       "outputId": 8,
@@ -1757,6 +1799,30 @@
       "outputModuleId": 30,
       "outputId": 4,
       "inputModuleId": 60,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 103,
+      "outputModuleId": 56,
+      "outputId": 2,
+      "inputModuleId": 27,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 122,
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 27,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 123,
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 61,
       "inputId": 0,
       "color": "#c91847"
     }
