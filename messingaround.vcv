@@ -520,11 +520,11 @@
       ],
       "leftModuleId": 28,
       "rightModuleId": 32,
-      "description": "Length locking with low chance + detuned second LFSR on the same configuration. Same configuration as 29 with different octaves and some reverb/delay.",
+      "description": "Length locking with low chance + detuned second LFSR on the same configuration. Same configuration as 30 with different octaves. Onces more with more range.",
       "tags": "prometheus II, wet, demo",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1629492049,
+      "trigger_time": 1629492892,
       "time_source": "trigger",
       "pos": [
         120,
@@ -986,7 +986,7 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 0,
+        "nc": 2,
         "pc": 0,
         "polyOutputs": false,
         "pattern": [
@@ -1424,7 +1424,7 @@
         },
         {
           "id": 4,
-          "value": 11.250001
+          "value": 13.6449986
         },
         {
           "id": 5,
@@ -1432,7 +1432,7 @@
         },
         {
           "id": 6,
-          "value": 2.28000021
+          "value": -0.299999982
         },
         {
           "id": 7,
@@ -1481,7 +1481,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         }
       ],
       "rightModuleId": 12,
@@ -2037,6 +2037,14 @@
       "inputModuleId": 27,
       "inputId": 5,
       "color": "#c9b70e"
+    },
+    {
+      "id": 132,
+      "outputModuleId": 62,
+      "outputId": 2,
+      "inputModuleId": 44,
+      "inputId": 5,
+      "color": "#0986ad"
     }
   ]
 }
