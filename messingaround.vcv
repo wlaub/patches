@@ -519,11 +519,11 @@
       ],
       "leftModuleId": 28,
       "rightModuleId": 32,
-      "description": "",
-      "tags": "prometheus II, wet",
+      "description": "Length locking with low chance + detuned second LFSR on the same configuration.",
+      "tags": "prometheus II, dry, demo",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1628294285,
+      "trigger_time": 1629491087,
       "time_source": "trigger",
       "pos": [
         120,
@@ -538,7 +538,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 57,
@@ -569,8 +569,8 @@
         }
       ],
       "leftModuleId": 29,
-      "files": "/home/wlaub/RackDev/plugins/vcv/README.md",
-      "dir": "/home/wlaub/RackDev/plugins/vcv",
+      "files": "/home/wlaub/RackDev/plugins/vcv/README.md\n/home/wlaub/pcbs/PrometheusII/Teensy/prometheus2/prometheus2.ino",
+      "dir": "/home/wlaub/pcbs/PrometheusII/Teensy/prometheus2",
       "file_type": "git",
       "file_type_id": 2,
       "pos": [
@@ -985,8 +985,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 1,
-        "pc": 3,
+        "nc": 0,
+        "pc": 0,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -1407,7 +1407,7 @@
       "params": [
         {
           "id": 0,
-          "value": 2.0
+          "value": -0.0
         },
         {
           "id": 1,
@@ -1423,7 +1423,7 @@
         },
         {
           "id": 4,
-          "value": 13.9300013
+          "value": 11.250001
         },
         {
           "id": 5,
@@ -1431,7 +1431,7 @@
         },
         {
           "id": 6,
-          "value": 0.720000267
+          "value": 2.28000021
         },
         {
           "id": 7,
