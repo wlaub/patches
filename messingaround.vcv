@@ -110,6 +110,7 @@
       "version": "1.1.6",
       "model": "AudioInterface16",
       "params": [],
+      "leftModuleId": 63,
       "data": {
         "audio": {
           "driver": 4,
@@ -331,7 +332,7 @@
         },
         {
           "id": 3,
-          "value": 0.976000011
+          "value": 0.963999987
         },
         {
           "id": 4,
@@ -379,11 +380,11 @@
         },
         {
           "id": 15,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 16,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 17,
@@ -399,7 +400,7 @@
         },
         {
           "id": 20,
-          "value": 0.0
+          "value": 0.582000375
         },
         {
           "id": 21,
@@ -415,7 +416,7 @@
         },
         {
           "id": 24,
-          "value": 0.0
+          "value": 0.53549999
         },
         {
           "id": 25,
@@ -519,11 +520,11 @@
       ],
       "leftModuleId": 28,
       "rightModuleId": 32,
-      "description": "Length locking with low chance + detuned second LFSR on the same configuration.",
-      "tags": "prometheus II, dry, demo",
+      "description": "Length locking with low chance + detuned second LFSR on the same configuration. Same configuration as 29 with different octaves and some reverb/delay.",
+      "tags": "prometheus II, wet, demo",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1629491087,
+      "trigger_time": 1629492049,
       "time_source": "trigger",
       "pos": [
         120,
@@ -1116,7 +1117,7 @@
         }
       ],
       "pos": [
-        88,
+        85,
         0
       ]
     },
@@ -1447,6 +1448,169 @@
         130,
         0
       ]
+    },
+    {
+      "id": 62,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Ripples",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.364500076
+        },
+        {
+          "id": 1,
+          "value": 9.92269611
+        },
+        {
+          "id": 2,
+          "value": 0.234999761
+        }
+      ],
+      "pos": [
+        98,
+        0
+      ]
+    },
+    {
+      "id": 63,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Octave",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 12,
+      "pos": [
+        62,
+        1
+      ]
+    },
+    {
+      "id": 64,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "AutoFader",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.00999999978
+        },
+        {
+          "id": 5,
+          "value": 0.00999999978
+        }
+      ],
+      "leftModuleId": 66,
+      "rightModuleId": 65,
+      "data": {
+        "m_fade_in_time": 7.03999996,
+        "m_fade_out_time": 0.00400000019,
+        "m_fade_xfading": false,
+        "m_fade_exponential": false
+      },
+      "pos": [
+        40,
+        2
+      ]
+    },
+    {
+      "id": 65,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 4.62000036
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 64,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        50,
+        2
+      ]
+    },
+    {
+      "id": 66,
+      "plugin": "Befaco",
+      "version": "1.1.0",
+      "model": "DualAtenuverter",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 10.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 64,
+      "pos": [
+        35,
+        2
+      ]
     }
   ],
   "cables": [
@@ -1601,14 +1765,6 @@
       "inputModuleId": 49,
       "inputId": 2,
       "color": "#c9b70e"
-    },
-    {
-      "id": 76,
-      "outputModuleId": 53,
-      "outputId": 1,
-      "inputModuleId": 12,
-      "inputId": 3,
-      "color": "#0986ad"
     },
     {
       "id": 93,
@@ -1825,6 +1981,62 @@
       "inputModuleId": 61,
       "inputId": 0,
       "color": "#c91847"
+    },
+    {
+      "id": 124,
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 62,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 76,
+      "outputModuleId": 53,
+      "outputId": 1,
+      "inputModuleId": 12,
+      "inputId": 11,
+      "color": "#0986ad"
+    },
+    {
+      "id": 126,
+      "outputModuleId": 63,
+      "outputId": 0,
+      "inputModuleId": 12,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 125,
+      "outputModuleId": 62,
+      "outputId": 2,
+      "inputModuleId": 27,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 127,
+      "outputModuleId": 64,
+      "outputId": 0,
+      "inputModuleId": 65,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 128,
+      "outputModuleId": 66,
+      "outputId": 0,
+      "inputModuleId": 64,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 129,
+      "outputModuleId": 64,
+      "outputId": 0,
+      "inputModuleId": 27,
+      "inputId": 5,
+      "color": "#c9b70e"
     }
   ]
 }
