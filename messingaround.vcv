@@ -492,7 +492,7 @@
         }
       ],
       "rightModuleId": 29,
-      "files": "/home/wlaub/.Rack/screenshots/20210806-165702.png",
+      "files": "/home/wlaub/.Rack/screenshots/20210823-172432.png",
       "dir": "/home/wlaub/.Rack/screenshots",
       "file_type": "image",
       "file_type_id": 0,
@@ -522,11 +522,11 @@
       ],
       "leftModuleId": 28,
       "rightModuleId": 32,
-      "description": "Length locking with low chance + detuned second LFSR on the same configuration. Same configuration as 30 with different octaves. Onces more with more range.",
+      "description": "Rev 00 and Rev 01 providing a couple different drones. Not much else.",
       "tags": "prometheus II, wet, demo",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1629763548,
+      "trigger_time": 1629764682,
       "time_source": "trigger",
       "pos": [
         120,
@@ -541,7 +541,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 57,
@@ -989,8 +989,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 1,
-        "pc": 6,
+        "nc": 3,
+        "pc": 3,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -2586,30 +2586,6 @@
       "color": "#0c8e15"
     },
     {
-      "id": 157,
-      "outputModuleId": 77,
-      "outputId": 0,
-      "inputModuleId": 75,
-      "inputId": 9,
-      "color": "#c91847"
-    },
-    {
-      "id": 155,
-      "outputModuleId": 64,
-      "outputId": 10,
-      "inputModuleId": 77,
-      "inputId": 1,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 160,
-      "outputModuleId": 77,
-      "outputId": 1,
-      "inputModuleId": 75,
-      "inputId": 10,
-      "color": "#0c8e15"
-    },
-    {
       "id": 161,
       "outputModuleId": 67,
       "outputId": 2,
@@ -2640,6 +2616,14 @@
       "inputModuleId": 73,
       "inputId": 0,
       "color": "#c91847"
+    },
+    {
+      "id": 166,
+      "outputModuleId": 30,
+      "outputId": 2,
+      "inputModuleId": 75,
+      "inputId": 9,
+      "color": "#0986ad"
     }
   ]
 }
