@@ -523,7 +523,7 @@
       "leftModuleId": 28,
       "rightModuleId": 32,
       "description": "Rev 00 and Rev 01 providing a couple different drones. Not much else.",
-      "tags": "prometheus II, wet, demo",
+      "tags": "prometheus II, wet, demo, drone",
       "authors": "Roots of Unity",
       "override_time": "",
       "trigger_time": 1629764682,
@@ -541,7 +541,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         }
       ],
       "leftModuleId": 57,
@@ -989,7 +989,7 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 3,
+        "nc": 1,
         "pc": 3,
         "polyOutputs": false,
         "pattern": [
@@ -1947,7 +1947,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": -1.0
         }
       ],
       "rightModuleId": 63,
