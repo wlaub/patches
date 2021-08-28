@@ -11,7 +11,7 @@
       "rightModuleId": 61,
       "text": "Demo patch instructions:\n\n1. Choose an audio driver and device in the AUDIO-8 module.\n\n2. Use the QWERTY and ZXCVB rows of your keyboard to generate MIDI notes, which are converted to 1V/oct and GATE signals.\n\n3. Drag knobs up/down. Hold Ctrl (Cmd on Mac) while dragging to fine-tune. Right-click knobs to edit, or double-click to initialize.\n\n4. Drag ports to create and move cables. Stack multiple cables on outputs by holding Ctrl (Cmd on Mac) and dragging from an output.\n\n5. Right-click on an empty rack space to add new modules.",
       "pos": [
-        125,
+        130,
         0
       ]
     },
@@ -60,7 +60,7 @@
         "external": 0
       },
       "pos": [
-        75,
+        80,
         2
       ]
     },
@@ -101,7 +101,7 @@
       ],
       "rightModuleId": 9,
       "pos": [
-        65,
+        70,
         2
       ]
     },
@@ -112,6 +112,7 @@
       "model": "AudioInterface16",
       "params": [],
       "leftModuleId": 63,
+      "rightModuleId": 60,
       "data": {
         "audio": {
           "driver": 4,
@@ -123,7 +124,7 @@
         }
       },
       "pos": [
-        65,
+        61,
         1
       ]
     },
@@ -146,7 +147,7 @@
         }
       },
       "pos": [
-        148,
+        153,
         1
       ]
     },
@@ -164,7 +165,7 @@
       "leftModuleId": 11,
       "rightModuleId": 14,
       "pos": [
-        158,
+        163,
         1
       ]
     },
@@ -214,7 +215,7 @@
         "external": 0
       },
       "pos": [
-        168,
+        173,
         1
       ]
     },
@@ -310,7 +311,7 @@
         "m_autoenumeratefiles": true
       },
       "pos": [
-        139,
+        144,
         1
       ]
     },
@@ -322,7 +323,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.398499966
         },
         {
           "id": 1,
@@ -450,7 +451,7 @@
         },
         {
           "id": 32,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 33,
@@ -458,7 +459,7 @@
         },
         {
           "id": 34,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 35,
@@ -469,10 +470,10 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 60,
+      "leftModuleId": 85,
       "rightModuleId": 59,
       "pos": [
-        95,
+        100,
         1
       ]
     },
@@ -497,7 +498,7 @@
       "file_type": "image",
       "file_type_id": 0,
       "pos": [
-        90,
+        95,
         2
       ]
     },
@@ -522,14 +523,14 @@
       ],
       "leftModuleId": 28,
       "rightModuleId": 32,
-      "description": "Rev 00 and Rev 01 providing a couple different drones. Not much else.",
-      "tags": "prometheus II, wet, demo, drone",
+      "description": "Rev 00 and Rev 01 coupling into frames output. Frames is routed to rev01 v/oct. Starts at 0 V, then turned all the way up to max. Then messing with rev00 frequency.",
+      "tags": "prometheus II,dry, demo",
       "authors": "Roots of Unity",
       "override_time": "",
       "trigger_time": 1629764682,
       "time_source": "trigger",
       "pos": [
-        120,
+        125,
         2
       ]
     },
@@ -552,7 +553,7 @@
         "output_scale": 1.0
       },
       "pos": [
-        136,
+        141,
         1
       ]
     },
@@ -578,7 +579,7 @@
       "file_type": "git",
       "file_type_id": 2,
       "pos": [
-        140,
+        145,
         2
       ]
     },
@@ -619,7 +620,7 @@
       ],
       "leftModuleId": 55,
       "pos": [
-        74,
+        79,
         0
       ]
     },
@@ -630,6 +631,7 @@
       "model": "Bogaudio-AnalyzerXL",
       "params": [],
       "leftModuleId": 45,
+      "rightModuleId": 76,
       "data": {
         "frequency_plot": "log",
         "range": 0.0,
@@ -729,7 +731,7 @@
         "m_use_bemolle": false
       },
       "pos": [
-        11,
+        16,
         2
       ]
     },
@@ -930,7 +932,7 @@
         "mode": 1
       },
       "pos": [
-        26,
+        31,
         0
       ]
     },
@@ -946,14 +948,14 @@
         "channels": -1
       },
       "pos": [
-        44,
+        49,
         0
       ]
     },
     {
       "id": 53,
       "plugin": "CountModula",
-      "version": "1.14.0",
+      "version": "1.15.1",
       "model": "Arpeggiator",
       "params": [
         {
@@ -989,8 +991,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 1,
-        "pc": 3,
+        "nc": 3,
+        "pc": 6,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -1044,14 +1046,14 @@
         ]
       },
       "pos": [
-        49,
+        54,
         0
       ]
     },
     {
       "id": 54,
       "plugin": "Befaco",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "model": "DualAtenuverter",
       "params": [
         {
@@ -1073,7 +1075,7 @@
       ],
       "rightModuleId": 47,
       "pos": [
-        21,
+        26,
         0
       ]
     },
@@ -1096,7 +1098,7 @@
         "output_scale": 1.0
       },
       "pos": [
-        71,
+        76,
         0
       ]
     },
@@ -1120,7 +1122,7 @@
         }
       ],
       "pos": [
-        85,
+        90,
         0
       ]
     },
@@ -1268,7 +1270,7 @@
         "outputSaturation": 0
       },
       "pos": [
-        124,
+        129,
         1
       ]
     },
@@ -1317,7 +1319,7 @@
         "external": 0
       },
       "pos": [
-        157,
+        162,
         0
       ]
     },
@@ -1376,17 +1378,17 @@
         "sync_prescaler": 6
       },
       "pos": [
-        112,
+        117,
         1
       ]
     },
     {
       "id": 60,
       "plugin": "CountModula",
-      "version": "1.14.0",
+      "version": "1.15.1",
       "model": "SRFlipFlop",
       "params": [],
-      "rightModuleId": 27,
+      "leftModuleId": 12,
       "data": {
         "moduleVersion": 1,
         "QStates": [
@@ -1400,7 +1402,7 @@
         "theme": 6
       },
       "pos": [
-        87,
+        80,
         1
       ]
     },
@@ -1449,7 +1451,7 @@
         "external": 0
       },
       "pos": [
-        141,
+        146,
         0
       ]
     },
@@ -1474,7 +1476,7 @@
       ],
       "rightModuleId": 67,
       "pos": [
-        98,
+        103,
         0
       ]
     },
@@ -1492,7 +1494,7 @@
       "leftModuleId": 76,
       "rightModuleId": 12,
       "pos": [
-        62,
+        58,
         1
       ]
     },
@@ -1536,7 +1538,7 @@
         "m_fade_exponential": false
       },
       "pos": [
-        40,
+        45,
         2
       ]
     },
@@ -1585,14 +1587,14 @@
         "external": 0
       },
       "pos": [
-        50,
+        55,
         2
       ]
     },
     {
       "id": 66,
       "plugin": "Befaco",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "model": "DualAtenuverter",
       "params": [
         {
@@ -1612,9 +1614,10 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 79,
       "rightModuleId": 64,
       "pos": [
-        35,
+        40,
         2
       ]
     },
@@ -1640,7 +1643,7 @@
       "leftModuleId": 62,
       "rightModuleId": 68,
       "pos": [
-        106,
+        111,
         0
       ]
     },
@@ -1676,7 +1679,7 @@
         "invert": 1.0
       },
       "pos": [
-        114,
+        119,
         0
       ]
     },
@@ -1698,7 +1701,7 @@
         "output_scale": 1.0
       },
       "pos": [
-        119,
+        124,
         0
       ]
     },
@@ -1721,7 +1724,7 @@
         "output_scale": 1.0
       },
       "pos": [
-        122,
+        127,
         0
       ]
     },
@@ -1762,7 +1765,7 @@
       ],
       "leftModuleId": 58,
       "pos": [
-        170,
+        175,
         0
       ]
     },
@@ -1820,7 +1823,7 @@
       "leftModuleId": 32,
       "rightModuleId": 74,
       "pos": [
-        170,
+        175,
         2
       ]
     },
@@ -1869,7 +1872,7 @@
         "external": 0
       },
       "pos": [
-        183,
+        188,
         2
       ]
     },
@@ -1892,7 +1895,7 @@
       "rightModuleId": 73,
       "data": {},
       "pos": [
-        180,
+        185,
         2
       ]
     },
@@ -1935,7 +1938,7 @@
         "m_fade_exponential": false
       },
       "pos": [
-        40,
+        45,
         3
       ]
     },
@@ -1947,12 +1950,13 @@
       "params": [
         {
           "id": 0,
-          "value": -1.0
+          "value": 0.0
         }
       ],
+      "leftModuleId": 44,
       "rightModuleId": 63,
       "pos": [
-        59,
+        55,
         1
       ]
     },
@@ -2019,7 +2023,7 @@
         ]
       },
       "pos": [
-        50,
+        55,
         3
       ]
     },
@@ -2043,7 +2047,285 @@
         "merge": false
       },
       "pos": [
-        181,
+        186,
+        1
+      ]
+    },
+    {
+      "id": 79,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 15.5699997
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 1.71000016
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 66,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        27,
+        2
+      ]
+    },
+    {
+      "id": 80,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 5.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 8.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.16999817
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": -0.00999951363
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 81,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        82,
+        3
+      ]
+    },
+    {
+      "id": 81,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "4DCBlock",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 80,
+      "data": {
+        "m_current_dc_block_frequency": 10.0
+      },
+      "pos": [
+        80,
+        3
+      ]
+    },
+    {
+      "id": 82,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-AnalyzerXL",
+      "params": [],
+      "data": {
+        "frequency_plot": "log",
+        "range": 0.0,
+        "amplitude_plot": "decibels_140",
+        "smooth": 0.5,
+        "quality": "ultra_ultra",
+        "window": "kaiser"
+      },
+      "pos": [
+        96,
+        3
+      ]
+    },
+    {
+      "id": 85,
+      "plugin": "squinkylabs-plug1",
+      "version": "1.0.22",
+      "model": "squinkylabs-mix4",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.659500003
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 27,
+      "pos": [
+        90,
         1
       ]
     }
@@ -2624,6 +2906,62 @@
       "inputModuleId": 75,
       "inputId": 9,
       "color": "#0986ad"
+    },
+    {
+      "id": 167,
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 79,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 168,
+      "outputModuleId": 12,
+      "outputId": 2,
+      "inputModuleId": 81,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 171,
+      "outputModuleId": 81,
+      "outputId": 0,
+      "inputModuleId": 80,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 175,
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 82,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 174,
+      "outputModuleId": 81,
+      "outputId": 0,
+      "inputModuleId": 82,
+      "inputId": 5,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 172,
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 82,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 178,
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 85,
+      "inputId": 3,
+      "color": "#c9b70e"
     }
   ]
 }
