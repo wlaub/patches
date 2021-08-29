@@ -403,7 +403,7 @@
         },
         {
           "id": 20,
-          "value": 0.489481866
+          "value": 0.435641974
         },
         {
           "id": 21,
@@ -493,7 +493,7 @@
         }
       ],
       "rightModuleId": 29,
-      "files": "/home/wlaub/.Rack/screenshots/20210823-172432.png",
+      "files": "/home/wlaub/.Rack/screenshots/20210829-155820.png",
       "dir": "/home/wlaub/.Rack/screenshots",
       "file_type": "image",
       "file_type_id": 0,
@@ -523,11 +523,11 @@
       ],
       "leftModuleId": 28,
       "rightModuleId": 32,
-      "description": "",
-      "tags": "prometheus II, dry, demo",
+      "description": "Frames is acting as a step sequencer, sequencing the rev01 length CV.",
+      "tags": "prometheus II, wet, drone, ",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1629764682,
+      "trigger_time": 1630277978,
       "time_source": "trigger",
       "pos": [
         130,
@@ -542,7 +542,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 57,
@@ -992,8 +992,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 0,
-        "pc": 5,
+        "nc": 3,
+        "pc": 4,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -2013,8 +2013,8 @@
           false,
           false,
           true,
-          true,
-          true,
+          false,
+          false,
           true,
           true,
           true,
@@ -2754,7 +2754,7 @@
         },
         {
           "id": 8,
-          "value": 1.0
+          "value": 2.0
         },
         {
           "id": 9,
@@ -2917,10 +2917,10 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          5,
-          3,
-          3,
-          3
+          6,
+          1,
+          1,
+          1
         ],
         "clockState": [
           true,
@@ -3558,14 +3558,6 @@
       "color": "#0c8e15"
     },
     {
-      "id": 154,
-      "outputModuleId": 75,
-      "outputId": 10,
-      "inputModuleId": 64,
-      "inputId": 9,
-      "color": "#0986ad"
-    },
-    {
       "id": 156,
       "outputModuleId": 75,
       "outputId": 12,
@@ -3604,14 +3596,6 @@
       "inputModuleId": 73,
       "inputId": 0,
       "color": "#c91847"
-    },
-    {
-      "id": 166,
-      "outputModuleId": 30,
-      "outputId": 2,
-      "inputModuleId": 75,
-      "inputId": 9,
-      "color": "#0986ad"
     },
     {
       "id": 168,
@@ -3758,14 +3742,6 @@
       "color": "#0c8e15"
     },
     {
-      "id": 191,
-      "outputModuleId": 92,
-      "outputId": 0,
-      "inputModuleId": 12,
-      "inputId": 0,
-      "color": "#0986ad"
-    },
-    {
       "id": 192,
       "outputModuleId": 92,
       "outputId": 0,
@@ -3844,6 +3820,54 @@
       "inputModuleId": 75,
       "inputId": 0,
       "color": "#0986ad"
+    },
+    {
+      "id": 191,
+      "outputModuleId": 92,
+      "outputId": 0,
+      "inputModuleId": 77,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 206,
+      "outputModuleId": 77,
+      "outputId": 2,
+      "inputModuleId": 12,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 208,
+      "outputModuleId": 92,
+      "outputId": 2,
+      "inputModuleId": 77,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 209,
+      "outputModuleId": 77,
+      "outputId": 3,
+      "inputModuleId": 64,
+      "inputId": 9,
+      "color": "#0986ad"
+    },
+    {
+      "id": 210,
+      "outputModuleId": 77,
+      "outputId": 4,
+      "inputModuleId": 75,
+      "inputId": 9,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 211,
+      "outputModuleId": 92,
+      "outputId": 2,
+      "inputModuleId": 77,
+      "inputId": 4,
+      "color": "#0c8e15"
     }
   ]
 }
