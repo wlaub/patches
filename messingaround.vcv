@@ -403,7 +403,7 @@
         },
         {
           "id": 20,
-          "value": 0.292456061
+          "value": 0.441769719
         },
         {
           "id": 21,
@@ -527,7 +527,7 @@
       "tags": "dry ",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1630541884,
+      "trigger_time": 1630542970,
       "time_source": "trigger",
       "pos": [
         130,
@@ -542,7 +542,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 57,
@@ -992,8 +992,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 1,
-        "pc": 3,
+        "nc": 0,
+        "pc": 5,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -2919,9 +2919,9 @@
         "moduleVersion": 1.10000002,
         "currentStep": [
           4,
-          1,
-          1,
-          1
+          6,
+          6,
+          6
         ],
         "clockState": [
           false,
@@ -3968,9 +3968,17 @@
       "id": 218,
       "outputModuleId": 12,
       "outputId": 2,
+      "inputModuleId": 81,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 219,
+      "outputModuleId": 81,
+      "outputId": 1,
       "inputModuleId": 85,
       "inputId": 0,
-      "color": "#0986ad"
+      "color": "#c9b70e"
     }
   ]
 }
