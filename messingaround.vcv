@@ -403,7 +403,7 @@
         },
         {
           "id": 20,
-          "value": 0.466008782
+          "value": 0.292456061
         },
         {
           "id": 21,
@@ -542,7 +542,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         }
       ],
       "leftModuleId": 57,
@@ -992,8 +992,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 2,
-        "pc": 5,
+        "nc": 1,
+        "pc": 3,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -2918,10 +2918,10 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          5,
-          8,
-          8,
-          8
+          4,
+          1,
+          1,
+          1
         ],
         "clockState": [
           false,
