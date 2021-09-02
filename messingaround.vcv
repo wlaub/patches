@@ -403,7 +403,7 @@
         },
         {
           "id": 20,
-          "value": 0.441769719
+          "value": 0.413550615
         },
         {
           "id": 21,
@@ -523,8 +523,8 @@
       ],
       "leftModuleId": 28,
       "rightModuleId": 32,
-      "description": "Channel 1 of frames is being recorded. Channel 2 is patched to the frame position input. Knobs are adjusted.",
-      "tags": "dry ",
+      "description": "A ~55 Hz VC into the FM CV input with maximum FM depth. The length knob is adjsuted.",
+      "tags": "prometheus II, dry, demo",
       "authors": "Roots of Unity",
       "override_time": "",
       "trigger_time": 1630542970,
@@ -542,7 +542,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         }
       ],
       "leftModuleId": 57,
@@ -992,8 +992,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 0,
-        "pc": 5,
+        "nc": 3,
+        "pc": 4,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -2211,7 +2211,7 @@
         },
         {
           "id": 3,
-          "value": 0.461500049
+          "value": 0.581499994
         },
         {
           "id": 4,
@@ -2307,7 +2307,7 @@
         },
         {
           "id": 27,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 28,
@@ -2319,7 +2319,7 @@
         },
         {
           "id": 30,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 31,
@@ -2918,16 +2918,16 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
+          6,
           4,
-          6,
-          6,
-          6
+          4,
+          4
         ],
         "clockState": [
-          false,
-          false,
-          false,
-          false
+          true,
+          true,
+          true,
+          true
         ],
         "runState": [
           true,
@@ -3084,7 +3084,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.46850121
+          "value": -2.23049664
         },
         {
           "id": 1,
@@ -3092,7 +3092,7 @@
         },
         {
           "id": 2,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 3,
@@ -3677,14 +3677,6 @@
       "color": "#c9b70e"
     },
     {
-      "id": 172,
-      "outputModuleId": 12,
-      "outputId": 1,
-      "inputModuleId": 82,
-      "inputId": 4,
-      "color": "#0c8e15"
-    },
-    {
       "id": 178,
       "outputModuleId": 12,
       "outputId": 1,
@@ -3979,6 +3971,14 @@
       "inputModuleId": 85,
       "inputId": 0,
       "color": "#c9b70e"
+    },
+    {
+      "id": 172,
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 82,
+      "inputId": 4,
+      "color": "#0c8e15"
     }
   ]
 }
