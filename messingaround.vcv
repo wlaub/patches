@@ -403,7 +403,7 @@
         },
         {
           "id": 20,
-          "value": 0.504465342
+          "value": 0.466008782
         },
         {
           "id": 21,
@@ -467,7 +467,7 @@
         },
         {
           "id": 36,
-          "value": 1.0
+          "value": 0.0
         }
       ],
       "leftModuleId": 85,
@@ -523,11 +523,11 @@
       ],
       "leftModuleId": 28,
       "rightModuleId": 32,
-      "description": "Frames is acting as a step sequencer, sequencing the rev01 length CV.",
-      "tags": "prometheus II, wet, drone, ",
+      "description": "Channel 1 of frames is being recorded. Channel 2 is patched to the frame position input. Knobs are adjusted.",
+      "tags": "dry ",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1630369905,
+      "trigger_time": 1630541884,
       "time_source": "trigger",
       "pos": [
         130,
@@ -542,7 +542,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 57,
@@ -992,7 +992,7 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 1,
+        "nc": 2,
         "pc": 5,
         "polyOutputs": false,
         "pattern": [
@@ -2199,7 +2199,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.42900002
+          "value": 0.567000091
         },
         {
           "id": 1,
@@ -2319,7 +2319,7 @@
         },
         {
           "id": 30,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 31,
@@ -2556,7 +2556,7 @@
         },
         {
           "id": 4,
-          "value": 14.920001
+          "value": 16.0
         },
         {
           "id": 5,
@@ -2564,7 +2564,7 @@
         },
         {
           "id": 6,
-          "value": 2.84000039
+          "value": 1.91000009
         },
         {
           "id": 7,
@@ -2919,9 +2919,9 @@
         "moduleVersion": 1.10000002,
         "currentStep": [
           5,
-          1,
-          1,
-          1
+          8,
+          8,
+          8
         ],
         "clockState": [
           false,
@@ -3963,6 +3963,14 @@
       "inputModuleId": 96,
       "inputId": 0,
       "color": "#0c8e15"
+    },
+    {
+      "id": 218,
+      "outputModuleId": 12,
+      "outputId": 2,
+      "inputModuleId": 85,
+      "inputId": 0,
+      "color": "#0986ad"
     }
   ]
 }
