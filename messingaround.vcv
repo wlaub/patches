@@ -323,7 +323,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.628000021
+          "value": 0.16749993
         },
         {
           "id": 1,
@@ -403,7 +403,7 @@
         },
         {
           "id": 20,
-          "value": 0.435641974
+          "value": 0.504465342
         },
         {
           "id": 21,
@@ -467,7 +467,7 @@
         },
         {
           "id": 36,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 85,
@@ -527,7 +527,7 @@
       "tags": "prometheus II, wet, drone, ",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1630277978,
+      "trigger_time": 1630369905,
       "time_source": "trigger",
       "pos": [
         130,
@@ -542,7 +542,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         }
       ],
       "leftModuleId": 57,
@@ -992,8 +992,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 3,
-        "pc": 4,
+        "nc": 1,
+        "pc": 5,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -1067,13 +1067,14 @@
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 3,
           "value": 0.0
         }
       ],
+      "leftModuleId": 96,
       "rightModuleId": 47,
       "pos": [
         31,
@@ -1489,7 +1490,7 @@
       "params": [
         {
           "id": 0,
-          "value": -1.0
+          "value": 0.0
         }
       ],
       "rightModuleId": 12,
@@ -2210,7 +2211,7 @@
         },
         {
           "id": 3,
-          "value": 0.659500003
+          "value": 0.461500049
         },
         {
           "id": 4,
@@ -2310,15 +2311,15 @@
         },
         {
           "id": 28,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 29,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 30,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 31,
@@ -2403,7 +2404,7 @@
         },
         {
           "id": 16,
-          "value": 0.0
+          "value": 0.336000115
         },
         {
           "id": 17,
@@ -2491,7 +2492,7 @@
         },
         {
           "id": 38,
-          "value": 7.0
+          "value": 0.0
         },
         {
           "id": 39,
@@ -2917,16 +2918,16 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          6,
+          5,
           1,
           1,
           1
         ],
         "clockState": [
-          true,
-          true,
-          true,
-          true
+          false,
+          false,
+          false,
+          false
         ],
         "runState": [
           true,
@@ -3073,6 +3074,68 @@
       "pos": [
         13,
         3
+      ]
+    },
+    {
+      "id": 96,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.46850121
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 97,
+      "rightModuleId": 54,
+      "data": {
+        "poly_input": 0
+      },
+      "pos": [
+        21,
+        0
+      ]
+    },
+    {
+      "id": 97,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Octave",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 96,
+      "pos": [
+        18,
+        0
       ]
     }
   ],
@@ -3502,14 +3565,6 @@
       "color": "#0986ad"
     },
     {
-      "id": 143,
-      "outputModuleId": 30,
-      "outputId": 1,
-      "inputModuleId": 26,
-      "inputId": 2,
-      "color": "#c9b70e"
-    },
-    {
       "id": 121,
       "outputModuleId": 69,
       "outputId": 7,
@@ -3867,6 +3922,46 @@
       "outputId": 2,
       "inputModuleId": 77,
       "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 143,
+      "outputModuleId": 30,
+      "outputId": 1,
+      "inputModuleId": 26,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 212,
+      "outputModuleId": 54,
+      "outputId": 1,
+      "inputModuleId": 12,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "id": 216,
+      "outputModuleId": 96,
+      "outputId": 3,
+      "inputModuleId": 54,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 217,
+      "outputModuleId": 86,
+      "outputId": 0,
+      "inputModuleId": 97,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 214,
+      "outputModuleId": 63,
+      "outputId": 0,
+      "inputModuleId": 96,
+      "inputId": 0,
       "color": "#0c8e15"
     }
   ]
