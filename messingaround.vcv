@@ -39,7 +39,7 @@
         },
         {
           "id": 4,
-          "value": 11.8099957
+          "value": 10.7599974
         },
         {
           "id": 5,
@@ -403,7 +403,7 @@
         },
         {
           "id": 20,
-          "value": 0.413550615
+          "value": 0.286847413
         },
         {
           "id": 21,
@@ -493,7 +493,7 @@
         }
       ],
       "rightModuleId": 29,
-      "files": "/home/wlaub/.Rack/screenshots/20210829-155820.png",
+      "files": "/home/wlaub/.Rack/screenshots/20210901-191254.png",
       "dir": "/home/wlaub/.Rack/screenshots",
       "file_type": "image",
       "file_type_id": 0,
@@ -523,11 +523,11 @@
       ],
       "leftModuleId": 28,
       "rightModuleId": 32,
-      "description": "A ~55 Hz VC into the FM CV input with maximum FM depth. The length knob is adjsuted.",
+      "description": "A ~55 Hz VC into the FM CV input with maximum FM depth. The length knob is adjsuted. I think the ES-8 may be acting up a little bit, though. ",
       "tags": "prometheus II, dry, demo",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1630542970,
+      "trigger_time": 1630548916,
       "time_source": "trigger",
       "pos": [
         130,
@@ -542,7 +542,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 57,
@@ -2918,16 +2918,16 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          6,
-          4,
-          4,
-          4
+          7,
+          2,
+          2,
+          2
         ],
         "clockState": [
-          true,
-          true,
-          true,
-          true
+          false,
+          false,
+          false,
+          false
         ],
         "runState": [
           true,
