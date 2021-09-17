@@ -116,7 +116,6 @@
       "data": {
         "audio": {
           "driver": 4,
-          "deviceName": "ES8",
           "offset": 0,
           "maxChannels": 16,
           "sampleRate": 44100,
@@ -400,7 +399,7 @@
         },
         {
           "id": 20,
-          "value": 0.499468803
+          "value": 0.166833818
         },
         {
           "id": 21,
@@ -987,8 +986,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 3,
-        "pc": 4,
+        "nc": 2,
+        "pc": 2,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -2912,10 +2911,10 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
+          4,
           3,
-          1,
-          1,
-          1
+          3,
+          3
         ],
         "clockState": [
           true,
