@@ -400,7 +400,7 @@
         },
         {
           "id": 20,
-          "value": 0.543514013
+          "value": 0.191979647
         },
         {
           "id": 21,
@@ -507,7 +507,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 1,
@@ -987,8 +987,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 3,
-        "pc": 0,
+        "nc": 0,
+        "pc": 1,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -2912,10 +2912,10 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          5,
-          2,
-          2,
-          2
+          7,
+          1,
+          1,
+          1
         ],
         "clockState": [
           false,
