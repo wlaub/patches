@@ -400,7 +400,7 @@
         },
         {
           "id": 20,
-          "value": 0.191979647
+          "value": 0.499468803
         },
         {
           "id": 21,
@@ -507,7 +507,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 1,
@@ -524,7 +524,7 @@
       "tags": "prometheus II, dry, demo",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1630548916,
+      "trigger_time": 1631844305,
       "time_source": "trigger",
       "pos": [
         205,
@@ -987,8 +987,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 0,
-        "pc": 1,
+        "nc": 3,
+        "pc": 4,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -2912,16 +2912,16 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          7,
+          3,
           1,
           1,
           1
         ],
         "clockState": [
-          false,
-          false,
-          false,
-          false
+          true,
+          true,
+          true,
+          true
         ],
         "runState": [
           true,
