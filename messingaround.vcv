@@ -116,6 +116,7 @@
       "data": {
         "audio": {
           "driver": 4,
+          "deviceName": "ES8",
           "offset": 0,
           "maxChannels": 16,
           "sampleRate": 44100,
@@ -399,7 +400,7 @@
         },
         {
           "id": 20,
-          "value": 0.166833818
+          "value": 0.246763498
         },
         {
           "id": 21,
@@ -523,7 +524,7 @@
       "tags": "prometheus II, dry, demo",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1631844305,
+      "trigger_time": 1631844717,
       "time_source": "trigger",
       "pos": [
         205,
@@ -538,7 +539,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 57,
@@ -987,7 +988,7 @@
         "hold": false,
         "gate": true,
         "nc": 2,
-        "pc": 2,
+        "pc": 0,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -2911,16 +2912,16 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          4,
           3,
-          3,
-          3
+          6,
+          6,
+          6
         ],
         "clockState": [
-          true,
-          true,
-          true,
-          true
+          false,
+          false,
+          false,
+          false
         ],
         "runState": [
           true,
