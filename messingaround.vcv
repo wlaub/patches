@@ -400,7 +400,7 @@
         },
         {
           "id": 20,
-          "value": 0.317844868
+          "value": 0.436961889
         },
         {
           "id": 21,
@@ -524,7 +524,7 @@
       "tags": "prometheus II, wet, drone",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1634323819,
+      "trigger_time": 1634323878,
       "time_source": "trigger",
       "pos": [
         205,
@@ -986,8 +986,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 1,
-        "pc": 6,
+        "nc": 2,
+        "pc": 1,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -2911,10 +2911,10 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          7,
-          3,
-          3,
-          3
+          1,
+          2,
+          2,
+          2
         ],
         "clockState": [
           false,
@@ -4100,7 +4100,7 @@
         },
         {
           "id": 1,
-          "value": 4.32192802
+          "value": 4.79467344
         },
         {
           "id": 2,
