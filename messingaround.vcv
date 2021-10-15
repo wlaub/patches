@@ -400,7 +400,7 @@
         },
         {
           "id": 20,
-          "value": 0.366399467
+          "value": 0.317844868
         },
         {
           "id": 21,
@@ -490,7 +490,7 @@
         }
       ],
       "rightModuleId": 29,
-      "files": "",
+      "files": "/home/wlaub/.Rack/screenshots/20211015-114951.png",
       "dir": "/home/wlaub/.Rack/screenshots",
       "file_type": "image",
       "file_type_id": 0,
@@ -524,7 +524,7 @@
       "tags": "prometheus II, wet, drone",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1631845021,
+      "trigger_time": 1634323819,
       "time_source": "trigger",
       "pos": [
         205,
@@ -539,7 +539,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 57,
@@ -986,8 +986,8 @@
         "numCVs": 4,
         "hold": false,
         "gate": true,
-        "nc": 3,
-        "pc": 4,
+        "nc": 1,
+        "pc": 6,
         "polyOutputs": false,
         "pattern": [
           0,
@@ -2911,10 +2911,10 @@
       "data": {
         "moduleVersion": 1.10000002,
         "currentStep": [
-          5,
-          4,
-          4,
-          4
+          7,
+          3,
+          3,
+          3
         ],
         "clockState": [
           false,
