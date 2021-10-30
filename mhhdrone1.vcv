@@ -351,7 +351,7 @@
         }
       ],
       "rightModuleId": 29,
-      "files": "",
+      "files": "/home/wlaub/.Rack/screenshots/20211029-181648.png",
       "dir": "/home/wlaub/.Rack/screenshots",
       "file_type": "image",
       "file_type_id": 0,
@@ -381,11 +381,11 @@
       ],
       "leftModuleId": 28,
       "rightModuleId": 32,
-      "description": "Working on wave sounds and a drone for most high honors.",
+      "description": "Working on wave sounds and a drone for most high honors. Ultimately this will want multiple prometheus II units operating independently. At present the rev01 prototype is in a configuration that consumes excessive power, so the rev00 isn't even plugged in.",
       "tags": "prometheus II, wet, drone, green cathedral",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1634323878,
+      "trigger_time": 1635556637,
       "time_source": "trigger",
       "pos": [
         102,
@@ -400,7 +400,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 57,
@@ -2129,7 +2129,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": -1.0
         }
       ],
       "leftModuleId": 193,
