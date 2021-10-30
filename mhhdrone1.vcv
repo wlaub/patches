@@ -265,7 +265,7 @@
         },
         {
           "id": 21,
-          "value": 0.402000129
+          "value": 0.429000229
         },
         {
           "id": 22,
@@ -385,7 +385,7 @@
       "tags": "prometheus II, wet, drone, green cathedral",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1635556637,
+      "trigger_time": 1635556739,
       "time_source": "trigger",
       "pos": [
         102,
@@ -2155,6 +2155,34 @@
         15,
         1
       ]
+    },
+    {
+      "id": 194,
+      "plugin": "Befaco",
+      "version": "1.1.1",
+      "model": "DualAtenuverter",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.661000013
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "pos": [
+        146,
+        3
+      ]
     }
   ],
   "cables": [
@@ -2805,6 +2833,14 @@
       "inputModuleId": 193,
       "inputId": 1,
       "color": "#0986ad"
+    },
+    {
+      "id": 424,
+      "outputModuleId": 194,
+      "outputId": 0,
+      "inputModuleId": 186,
+      "inputId": 9,
+      "color": "#c9b70e"
     }
   ]
 }
