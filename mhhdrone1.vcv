@@ -385,7 +385,7 @@
       "tags": "prometheus II, wet, drone, green cathedral, waves",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1635721011,
+      "trigger_time": 1635721031,
       "time_source": "trigger",
       "pos": [
         104,
@@ -1422,11 +1422,11 @@
       "data": {
         "moduleVersion": 1,
         "QStates": [
-          true,
+          false,
           false
         ],
         "NQStates": [
-          false,
+          true,
           true
         ],
         "theme": 6
@@ -1869,7 +1869,7 @@
       "leftModuleId": 234,
       "rightModuleId": 194,
       "data": {
-        "m_delay_time": 1.0,
+        "m_delay_time": 1.00012207,
         "m_delay_time_multiplier": 19.9700012,
         "m_feedback": 0.280000001,
         "m_feed_in": 1.0
@@ -2873,7 +2873,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 1,
