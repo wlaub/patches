@@ -351,7 +351,7 @@
         }
       ],
       "rightModuleId": 29,
-      "files": "",
+      "files": "/home/wlaub/.Rack/screenshots/20211031-155608.png",
       "dir": "/home/wlaub/.Rack/screenshots",
       "file_type": "image",
       "file_type_id": 0,
@@ -385,7 +385,7 @@
       "tags": "prometheus II, wet, drone, green cathedral, waves",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1635556739,
+      "trigger_time": 1635721011,
       "time_source": "trigger",
       "pos": [
         104,
@@ -400,7 +400,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 57,
