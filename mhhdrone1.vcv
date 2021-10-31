@@ -9,7 +9,7 @@
       "params": [],
       "text": "Demo patch instructions:\n\n1. Choose an audio driver and device in the AUDIO-8 module.\n\n2. Use the QWERTY and ZXCVB rows of your keyboard to generate MIDI notes, which are converted to 1V/oct and GATE signals.\n\n3. Drag knobs up/down. Hold Ctrl (Cmd on Mac) while dragging to fine-tune. Right-click knobs to edit, or double-click to initialize.\n\n4. Drag ports to create and move cables. Stack multiple cables on outputs by holding Ctrl (Cmd on Mac) and dragging from an output.\n\n5. Right-click on an empty rack space to add new modules.",
       "pos": [
-        109,
+        146,
         0
       ]
     },
@@ -385,7 +385,7 @@
       "tags": "prometheus II, wet, drone, green cathedral, waves",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1635721104,
+      "trigger_time": 1635721756,
       "time_source": "trigger",
       "pos": [
         104,
@@ -1633,7 +1633,7 @@
         },
         {
           "id": 3,
-          "value": 0.0
+          "value": 6.44999933
         },
         {
           "id": 4,
@@ -2049,7 +2049,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.498999894
+          "value": 1.0
         },
         {
           "id": 1,
@@ -2848,9 +2848,9 @@
       "rightModuleId": 223,
       "data": {
         "states": [
-          false,
-          false,
-          false,
+          true,
+          true,
+          true,
           true,
           true,
           true,
@@ -3306,6 +3306,25 @@
       },
       "pos": [
         71,
+        0
+      ]
+    },
+    {
+      "id": 238,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-AnalyzerXL",
+      "params": [],
+      "data": {
+        "frequency_plot": "log",
+        "range": 0.0,
+        "amplitude_plot": "decibels_140",
+        "smooth": 0.25,
+        "quality": "ultra_ultra",
+        "window": "kaiser"
+      },
+      "pos": [
+        86,
         0
       ]
     }
@@ -4566,6 +4585,22 @@
       "inputModuleId": 188,
       "inputId": 1,
       "color": "#0986ad"
+    },
+    {
+      "id": 532,
+      "outputModuleId": 237,
+      "outputId": 0,
+      "inputModuleId": 238,
+      "inputId": 6,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 533,
+      "outputModuleId": 237,
+      "outputId": 1,
+      "inputModuleId": 238,
+      "inputId": 5,
+      "color": "#0c8e15"
     }
   ]
 }
