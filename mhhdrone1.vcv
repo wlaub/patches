@@ -385,7 +385,7 @@
       "tags": "prometheus II, wet, drone, green cathedral, waves",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1635722262,
+      "trigger_time": 1635723058,
       "time_source": "trigger",
       "pos": [
         104,
@@ -1422,11 +1422,11 @@
       "data": {
         "moduleVersion": 1,
         "QStates": [
-          true,
+          false,
           false
         ],
         "NQStates": [
-          false,
+          true,
           true
         ],
         "theme": 6
@@ -1869,7 +1869,7 @@
       "leftModuleId": 234,
       "rightModuleId": 194,
       "data": {
-        "m_delay_time": 1.00012207,
+        "m_delay_time": 0.999755859,
         "m_delay_time_multiplier": 19.9700012,
         "m_feedback": 0.280000001,
         "m_feed_in": 1.0
@@ -2053,7 +2053,7 @@
         },
         {
           "id": 1,
-          "value": 1.0
+          "value": 0.404499888
         },
         {
           "id": 2,
@@ -2089,7 +2089,7 @@
         },
         {
           "id": 10,
-          "value": 0.549000025
+          "value": 0.883499742
         },
         {
           "id": 11,
@@ -2109,7 +2109,7 @@
         },
         {
           "id": 15,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 16,
@@ -2117,7 +2117,7 @@
         },
         {
           "id": 17,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "rightModuleId": 27,
@@ -2691,7 +2691,7 @@
         },
         {
           "id": 3,
-          "value": -4.0
+          "value": -5.0
         },
         {
           "id": 4,
@@ -2848,7 +2848,7 @@
       "rightModuleId": 223,
       "data": {
         "states": [
-          false,
+          true,
           true,
           true,
           true,
@@ -3326,6 +3326,52 @@
       "pos": [
         86,
         0
+      ]
+    },
+    {
+      "id": 239,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-CVD",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        }
+      ],
+      "data": {},
+      "pos": [
+        156,
+        1
+      ]
+    },
+    {
+      "id": 240,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-Manual",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "triggerOnLoad": false,
+        "shouldTriggerOnLoad": true,
+        "output_scale": 1.0
+      },
+      "pos": [
+        200,
+        3
       ]
     }
   ],
@@ -4672,6 +4718,22 @@
       "outputId": 7,
       "inputModuleId": 188,
       "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 548,
+      "outputModuleId": 240,
+      "outputId": 0,
+      "inputModuleId": 239,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 549,
+      "outputModuleId": 239,
+      "outputId": 0,
+      "inputModuleId": 188,
+      "inputId": 8,
       "color": "#c9b70e"
     }
   ]
