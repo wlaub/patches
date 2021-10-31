@@ -181,7 +181,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.75
+          "value": 0.817500174
         },
         {
           "id": 1,
@@ -193,15 +193,15 @@
         },
         {
           "id": 3,
-          "value": 0.126000077
+          "value": 0.0810000226
         },
         {
           "id": 4,
-          "value": 0.280499816
+          "value": 0.200999811
         },
         {
           "id": 5,
-          "value": 1.0
+          "value": 0.795999646
         },
         {
           "id": 6,
@@ -385,7 +385,7 @@
       "tags": "prometheus II, wet, drone, green cathedral, waves",
       "authors": "Roots of Unity",
       "override_time": "",
-      "trigger_time": 1635721756,
+      "trigger_time": 1635722262,
       "time_source": "trigger",
       "pos": [
         104,
@@ -1869,7 +1869,7 @@
       "leftModuleId": 234,
       "rightModuleId": 194,
       "data": {
-        "m_delay_time": 1.0,
+        "m_delay_time": 1.00012207,
         "m_delay_time_multiplier": 19.9700012,
         "m_feedback": 0.280000001,
         "m_feed_in": 1.0
@@ -2093,7 +2093,7 @@
         },
         {
           "id": 11,
-          "value": 0.291000038
+          "value": 0.0915000364
         },
         {
           "id": 12,
@@ -2743,7 +2743,7 @@
         },
         {
           "id": 16,
-          "value": 7.0
+          "value": 0.0
         },
         {
           "id": 17,
@@ -2848,7 +2848,7 @@
       "rightModuleId": 223,
       "data": {
         "states": [
-          true,
+          false,
           true,
           true,
           true,
@@ -2873,15 +2873,15 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 1,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 2,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 3,
@@ -4299,22 +4299,6 @@
       "color": "#c9b70e"
     },
     {
-      "id": 495,
-      "outputModuleId": 222,
-      "outputId": 0,
-      "inputModuleId": 27,
-      "inputId": 7,
-      "color": "#c91847"
-    },
-    {
-      "id": 496,
-      "outputModuleId": 222,
-      "outputId": 1,
-      "inputModuleId": 27,
-      "inputId": 6,
-      "color": "#0986ad"
-    },
-    {
       "id": 497,
       "outputModuleId": 227,
       "outputId": 0,
@@ -4555,14 +4539,6 @@
       "color": "#c91847"
     },
     {
-      "id": 527,
-      "outputModuleId": 222,
-      "outputId": 2,
-      "inputModuleId": 27,
-      "inputId": 5,
-      "color": "#0986ad"
-    },
-    {
       "id": 528,
       "outputModuleId": 231,
       "outputId": 0,
@@ -4601,6 +4577,102 @@
       "inputModuleId": 238,
       "inputId": 5,
       "color": "#0c8e15"
+    },
+    {
+      "id": 495,
+      "outputModuleId": 223,
+      "outputId": 4,
+      "inputModuleId": 27,
+      "inputId": 7,
+      "color": "#c91847"
+    },
+    {
+      "id": 496,
+      "outputModuleId": 223,
+      "outputId": 5,
+      "inputModuleId": 27,
+      "inputId": 6,
+      "color": "#0986ad"
+    },
+    {
+      "id": 527,
+      "outputModuleId": 223,
+      "outputId": 6,
+      "inputModuleId": 27,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "id": 538,
+      "outputModuleId": 222,
+      "outputId": 0,
+      "inputModuleId": 223,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 539,
+      "outputModuleId": 222,
+      "outputId": 1,
+      "inputModuleId": 223,
+      "inputId": 5,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 540,
+      "outputModuleId": 222,
+      "outputId": 2,
+      "inputModuleId": 223,
+      "inputId": 6,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 541,
+      "outputModuleId": 222,
+      "outputId": 4,
+      "inputModuleId": 223,
+      "inputId": 12,
+      "color": "#c91847"
+    },
+    {
+      "id": 542,
+      "outputModuleId": 222,
+      "outputId": 4,
+      "inputModuleId": 223,
+      "inputId": 13,
+      "color": "#0986ad"
+    },
+    {
+      "id": 543,
+      "outputModuleId": 222,
+      "outputId": 4,
+      "inputModuleId": 223,
+      "inputId": 14,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 544,
+      "outputModuleId": 222,
+      "outputId": 4,
+      "inputModuleId": 223,
+      "inputId": 15,
+      "color": "#c91847"
+    },
+    {
+      "id": 545,
+      "outputModuleId": 194,
+      "outputId": 1,
+      "inputModuleId": 223,
+      "inputId": 7,
+      "color": "#0986ad"
+    },
+    {
+      "id": 546,
+      "outputModuleId": 223,
+      "outputId": 7,
+      "inputModuleId": 188,
+      "inputId": 4,
+      "color": "#c9b70e"
     }
   ]
 }
