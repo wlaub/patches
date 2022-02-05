@@ -5071,9 +5071,9 @@
         "moduleVersion": 1.10000002,
         "currentStep": [
           7,
-          4,
-          4,
-          4
+          8,
+          8,
+          8
         ],
         "clockState": [
           true,
@@ -5265,7 +5265,7 @@
         },
         {
           "id": 38,
-          "value": 10.0
+          "value": 6.0
         },
         {
           "id": 39,
@@ -5824,8 +5824,8 @@
       ],
       "leftModuleId": 675,
       "rightModuleId": 681,
-      "files": "",
-      "dir": "/home/wlaub/.Rack/screenshots",
+      "files": "/home/wlaub/.Rack/screenshots/20210615-142429.png\n/home/wlaub/.Rack/202005311525_2T.002.mp3",
+      "dir": "/home/wlaub/.Rack",
       "file_type": "image",
       "file_type_id": 0,
       "pos": [
